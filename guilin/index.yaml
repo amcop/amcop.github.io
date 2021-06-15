@@ -3,993 +3,408 @@ entries:
   a1policymanagement:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-06-15T08:38:38.74530505Z"
+    created: "2021-06-15T11:21:20.829206266Z"
     description: A Helm chart for A1 Policy Management Service
-    digest: sha256:d0e6b9a976e7d1e7d00a01c6484b936766ea061f2a387f6df6f2afb4f0020ddf
+    digest: 11389370dd136dc6616367e39ebeb06164591e2fa0f24249f352375cf35aef09
     name: a1policymanagement
     urls:
-    - https://amcop.github.io/guilin/charts/a1policymanagement-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    appVersion: 1.0.0
-    created: "2021-06-15T10:20:28.750079381Z"
-    description: A Helm chart for A1 Policy Management Service
-    digest: sha256:7f6e999c2e0f1ca761039f6a5c97941fe8e5aee4d08354fa5944516d9dddaf1b
-    name: a1policymanagement
-    urls:
-    - https://amcop.github.io/guilin/charts/a1policymanagement-7.0.1.tgz
+    - a1policymanagement-7.0.1.tgz
     version: 7.0.1
   aaf:
   - apiVersion: v1
-    created: "2021-06-15T08:40:44.278188085Z"
+    created: "2021-06-15T11:21:20.866741373Z"
     description: ONAP Application Authorization Framework
-    digest: sha256:7b9ab6463150da494446c09632e6cefa567945dfe2464cf9bc00f71fdfe47173
+    digest: f4124bf71d08061e2677209d46dcf74963d14b6335dccfe4b0f3c53e8383d73c
     name: aaf
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:22:35.098055743Z"
-    description: ONAP Application Authorization Framework
-    digest: sha256:00e2fec11498a371f31e0852b3c7628f4af2c411e4541412c669930c8b39aedd
-    name: aaf
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-7.0.1.tgz
+    - aaf-7.0.1.tgz
     version: 7.0.1
   aaf-cass:
   - apiVersion: v1
-    created: "2021-06-15T08:38:48.799576396Z"
+    created: "2021-06-15T11:21:20.868283875Z"
     description: ONAP AAF cassandra
-    digest: sha256:0eb8d25d72107687e30417a2ae96beca189ad7fcfb7fe48fb78257016cd03906
+    digest: 3bd4d13a22b1dcefb8af0e66cb315aac7d14a0fb1f34009d5221e768690f89f2
     name: aaf-cass
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-cass-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:20:38.879057927Z"
-    description: ONAP AAF cassandra
-    digest: sha256:0931ff7c0adb32f3df720da4b86f2a906e27a36df530d61893d871844ebc79c9
-    name: aaf-cass
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-cass-7.0.1.tgz
+    - aaf-cass-7.0.1.tgz
     version: 7.0.1
   aaf-cm:
   - apiVersion: v1
-    created: "2021-06-15T08:38:58.769770201Z"
+    created: "2021-06-15T11:21:20.871259671Z"
     description: ONAP AAF Certificate Manager
-    digest: sha256:e2561c170e34ff64150095401bd469729fdf0fcf0bfe39633c58246b1d206ea0
+    digest: 89845fb5285bc9449ba1ade2a559a57b6b26c89f86b5df43438dc743ce1f84c4
     name: aaf-cm
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-cm-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:20:48.925858972Z"
-    description: ONAP AAF Certificate Manager
-    digest: sha256:3a2e8f47b2c2d06d710acb419d6d635338ba1f6e77b809421aa571c6a123e22d
-    name: aaf-cm
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-cm-7.0.1.tgz
+    - aaf-cm-7.0.1.tgz
     version: 7.0.1
   aaf-fs:
   - apiVersion: v1
-    created: "2021-06-15T08:39:08.74194264Z"
+    created: "2021-06-15T11:21:20.874293126Z"
     description: ONAP AAF File Server
-    digest: sha256:faf2805fc4f28a142f75b3792869ab005fcd43a6df5dc1d620214b3f7593e8d7
+    digest: e048824d55f1d7c12a6d3739088e5d16dc810bbde8bd5e066db2d24ee15a39ea
     name: aaf-fs
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-fs-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:20:58.909665295Z"
-    description: ONAP AAF File Server
-    digest: sha256:c2e5a024f6fd8f7a11557206e057c5036eb23549ac19e1cfc7b8c6118bcd7e94
-    name: aaf-fs
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-fs-7.0.1.tgz
+    - aaf-fs-7.0.1.tgz
     version: 7.0.1
   aaf-gui:
   - apiVersion: v1
-    created: "2021-06-15T08:39:18.189631527Z"
+    created: "2021-06-15T11:21:20.877767024Z"
     description: ONAP AAF GUI
-    digest: sha256:664be2e76172f710689a5acf2b9739f37111823383130f1b1bdf4f918f0d5c7e
+    digest: 3a87c0ce1393125c14e396a39afce0c351c7e52963b08e4b2f0854ecfe5703c3
     name: aaf-gui
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-gui-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:21:09.195628528Z"
-    description: ONAP AAF GUI
-    digest: sha256:9c68fa71527fc792261522935325fbf36f88d22bbbe6ad7d66d5345969c38947
-    name: aaf-gui
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-gui-7.0.1.tgz
+    - aaf-gui-7.0.1.tgz
     version: 7.0.1
   aaf-hello:
   - apiVersion: v1
-    created: "2021-06-15T08:39:28.3289904Z"
+    created: "2021-06-15T11:21:20.882525357Z"
     description: ONAP AAF Hello
-    digest: sha256:611ffad6ef71335bfaa8312a28018f34db93f5ad70233983bb72d380a82693af
+    digest: 83e5c61d08f03ec2a343f209b082fd569b9944bfbd8a3205eea62ee2c76361a4
     name: aaf-hello
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-hello-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:21:19.464336914Z"
-    description: ONAP AAF Hello
-    digest: sha256:4e0b440d52f912b4d6ddf605b0376962d016c85e843b6bf4006e8727d325cb94
-    name: aaf-hello
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-hello-7.0.1.tgz
+    - aaf-hello-7.0.1.tgz
     version: 7.0.1
   aaf-locate:
   - apiVersion: v1
-    created: "2021-06-15T08:39:38.178147084Z"
+    created: "2021-06-15T11:21:20.887852535Z"
     description: ONAP AAF Locate
-    digest: sha256:f953aa1b5c454ae1439bbeefb32e9af67f7ab9f8b8527e1b6febf79c36a0ef6a
+    digest: e0417b57137e42e91461b152372b9925a84f42dd333d5385653bb1226b0f86c6
     name: aaf-locate
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-locate-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:21:29.008582211Z"
-    description: ONAP AAF Locate
-    digest: sha256:9618c10c95ff27251f9f64177ade96587f79e923cad6e9a8583ae7aced85ac5e
-    name: aaf-locate
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-locate-7.0.1.tgz
+    - aaf-locate-7.0.1.tgz
     version: 7.0.1
   aaf-oauth:
   - apiVersion: v1
-    created: "2021-06-15T08:39:47.566087272Z"
+    created: "2021-06-15T11:21:20.892527122Z"
     description: ONAP AAF OAuth
-    digest: sha256:5f7001f8cf60c61e28061a33ff17e6ea3f3cccac150739f36eefe4796d81f137
+    digest: ac54a1b5a53f1aa12aeaed325418c4d36ffef3649f95160954b646a4a8291e50
     name: aaf-oauth
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-oauth-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:21:38.839826075Z"
-    description: ONAP AAF OAuth
-    digest: sha256:69fb553201b6b2b519b2fec689d867596625af7fa9926a5f26ff796878a22141
-    name: aaf-oauth
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-oauth-7.0.1.tgz
+    - aaf-oauth-7.0.1.tgz
     version: 7.0.1
   aaf-service:
   - apiVersion: v1
-    created: "2021-06-15T08:39:57.444456072Z"
+    created: "2021-06-15T11:21:20.896825901Z"
     description: ONAP AAF Service
-    digest: sha256:5e957b43ffee61effd4f527ff9bd62fc94ec857c6ec58cf1959894d11e5c94ae
+    digest: 7b387d480cc7395a209044dd2519a95e122c3a188dccda6e94acf4a0a4721bf1
     name: aaf-service
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-service-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:21:48.732336144Z"
-    description: ONAP AAF Service
-    digest: sha256:7cb11290d06a7246f829ac70c73124caf6d56665d8b6fdf82ab7e4265ca2309f
-    name: aaf-service
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-service-7.0.1.tgz
+    - aaf-service-7.0.1.tgz
     version: 7.0.1
   aaf-sms:
   - apiVersion: v1
-    created: "2021-06-15T08:40:16.028531747Z"
+    created: "2021-06-15T11:21:20.906348083Z"
     description: ONAP Secret Management Service
-    digest: sha256:5489b04c36a706702cb416f8305b982bbb88935682e8b6056f923a34bbe35ca4
+    digest: ba269a0529fa11255675fbbf5f2fa7ce46a8652fac0686566f11909f3752f10e
     name: aaf-sms
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-sms-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:22:07.710832146Z"
-    description: ONAP Secret Management Service
-    digest: sha256:bf0c22e270780330b6d00d440cdacabc58db63dae82f82da6925150dd9ef194a
-    name: aaf-sms
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-sms-7.0.1.tgz
+    - aaf-sms-7.0.1.tgz
     version: 7.0.1
   aaf-sshsm:
   - apiVersion: v1
-    created: "2021-06-15T08:40:26.24111371Z"
+    created: "2021-06-15T11:21:20.908855359Z"
     description: ONAP Hardware Security Components
-    digest: sha256:ba0e99c90b316d05b4480094c10ef184899d46b92571378ae77517fcfcbd434c
+    digest: 50db4f7d62c47384e1771a370635fb65bb0856f7e05dd661dbe8dc4dc3b23dd2
     name: aaf-sshsm
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-sshsm-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:22:17.825598956Z"
-    description: ONAP Hardware Security Components
-    digest: sha256:56f24b1c4b75d3ad64a3cc12d69bae1b492c0aa24b7c544fd6ee3b54cb2ea93b
-    name: aaf-sshsm
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-sshsm-7.0.1.tgz
+    - aaf-sshsm-7.0.1.tgz
     version: 7.0.1
   aaf-templates:
   - apiVersion: v1
-    created: "2021-06-15T08:40:36.559347635Z"
+    created: "2021-06-15T11:21:20.91079012Z"
     description: ONAP Application Authorization Framework Templates
-    digest: sha256:02e96f65b8fc91633391fa6806ecf3f66196857445becae07def493c0de86348
+    digest: 01d8855f9181c1751dad046bc3a4fba7bca14ea82e0d45983645173152f8b9f1
     name: aaf-templates
     urls:
-    - https://amcop.github.io/guilin/charts/aaf-templates-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:22:27.482743083Z"
-    description: ONAP Application Authorization Framework Templates
-    digest: sha256:68ffc79a3157ee5a71937c1c00cbaa77d51833a97ae8f91edb8eccddc5a029b3
-    name: aaf-templates
-    urls:
-    - https://amcop.github.io/guilin/charts/aaf-templates-7.0.1.tgz
+    - aaf-templates-7.0.1.tgz
     version: 7.0.1
   aai:
   - apiVersion: v1
-    created: "2021-06-15T08:38:28.814362785Z"
+    created: "2021-06-15T11:21:20.933364565Z"
     description: ONAP Active and Available Inventory
-    digest: sha256:2d48eb9f7b3a9e5e9d2cdeaeb72cca2b5614bd1420efcdf92b7afbead3b7d567
+    digest: f3c84a14df22b2a273367ad61857bbaa2b49ab8b7bd879444bfaf536f76c03e4
     name: aai
     urls:
-    - https://amcop.github.io/guilin/charts/aai-7.0.0.tgz
-    version: 7.0.0
-  - apiVersion: v1
-    created: "2021-06-15T10:20:18.299308305Z"
-    description: ONAP Active and Available Inventory
-    digest: sha256:f08ec477ca4b7bdd91c80f3844adc657257a6280168f143b6cca092dbbc4f546
-    name: aai
-    urls:
-    - https://amcop.github.io/guilin/charts/aai-7.0.0.tgz
+    - aai-7.0.0.tgz
     version: 7.0.0
   appc:
   - apiVersion: v1
-    created: "2021-06-15T08:41:00.590219878Z"
+    created: "2021-06-15T11:21:20.943991226Z"
     description: Application Controller
-    digest: sha256:96364cfd2b9cba2c5e6e3b8808fa2cb7e1df379cfb252662335fc618ea378564
+    digest: 2596fe2bcc6fd5c17a03ccaa045d2c087ee2f96f571c6d4cbb10def82f7bc011
     name: appc
     urls:
-    - https://amcop.github.io/guilin/charts/appc-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:22:50.650488074Z"
-    description: Application Controller
-    digest: sha256:3b71c4fda48d9c0602a7435bc1c56e9d75c87ea8fb179b7df8f6b4ddf38302f4
-    name: appc
-    urls:
-    - https://amcop.github.io/guilin/charts/appc-7.0.1.tgz
+    - appc-7.0.1.tgz
     version: 7.0.1
   cassandra:
   - apiVersion: v1
-    created: "2021-06-15T08:23:32.677390418Z"
+    created: "2021-06-15T11:21:20.950627743Z"
     description: ONAP cassandra
-    digest: 1d14deae4455c68791b3a110c57111fbcce9aabb04385f558cb0fc3d6d644ebe
+    digest: 17150617669c69b9150c73ca041f54e2bf9b4490736b046f89a1390d8e87016d
     name: cassandra
     urls:
-    - https://amcop.github.io/guilin/cassandra-8.0.0.tgz
+    - cassandra-8.0.0.tgz
     version: 8.0.0
   - apiVersion: v1
-    created: "2021-06-15T08:24:26.051981554Z"
+    created: "2021-06-15T11:21:20.946691723Z"
     description: ONAP cassandra
-    digest: sha256:fe9966bfd8e7c3323811250e9178321f3f47b22f2c0b44ef113d034e087a129e
+    digest: fe73241beaef22c7c7586800a808e29a8d453951b7c8ed87a9b9c9f42a52fb6e
     name: cassandra
     urls:
-    - https://amcop.github.io/guilin/charts/cassandra-8.0.0.tgz
-    version: 8.0.0
-  - apiVersion: v1
-    created: "2021-06-15T08:25:17.867808993Z"
-    description: ONAP cassandra
-    digest: sha256:8c101b49ce71cc87e212ae57d88e446c0ba224f6538836061c7b7cc5ed36be6a
-    name: cassandra
-    urls:
-    - https://amcop.github.io/guilin/charts/cassandra-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:28:43.511100082Z"
-    description: ONAP cassandra
-    digest: sha256:d31bdf473131b5b756d822fd93415dcd06a47337b7bd09aa5a644dcdb5ea3ca2
-    name: cassandra
-    urls:
-    - https://amcop.github.io/guilin/charts/cassandra-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:31:27.149975682Z"
-    description: ONAP cassandra
-    digest: sha256:879fd4aa59a2426ece90959a9d19ee61eac4dcae9090c1f0da41baa6df1b2bfa
-    name: cassandra
-    urls:
-    - https://amcop.github.io/guilin/charts/cassandra-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:36:09.596385134Z"
-    description: ONAP cassandra
-    digest: sha256:f4be62fe17ca4f47eeaf582837e12766568228a531f0f885c6e4b35a1bfe21e7
-    name: cassandra
-    urls:
-    - https://amcop.github.io/guilin/charts/cassandra-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:17:54.866336822Z"
-    description: ONAP cassandra
-    digest: sha256:dea2e7166a49ec606c79833df4d44a25f4e16984e230054ae99ea429b6872c3b
-    name: cassandra
-    urls:
-    - https://amcop.github.io/guilin/charts/cassandra-7.0.1.tgz
+    - cassandra-7.0.1.tgz
     version: 7.0.1
   cds:
   - apiVersion: v1
-    created: "2021-06-15T08:41:12.765797909Z"
+    created: "2021-06-15T11:21:20.957936812Z"
     description: ONAP Controller Design Studio (CDS)
-    digest: sha256:f43ae138f4e40cf7c09322227f6b0894499779269ef47c79ffec376d7868329b
+    digest: 365c52a1bf6debb9790db8c0d5755a64aac3ee312da3f98d88a9b29bd4a32514
     name: cds
     urls:
-    - https://amcop.github.io/guilin/charts/cds-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:23:03.417969089Z"
-    description: ONAP Controller Design Studio (CDS)
-    digest: sha256:7c20ba49920056b1aa6dac8be6f2fab9926800913bd1446453be39fb89959f47
-    name: cds
-    urls:
-    - https://amcop.github.io/guilin/charts/cds-7.0.1.tgz
+    - cds-7.0.1.tgz
     version: 7.0.1
   cert-wrapper:
   - apiVersion: v1
-    created: "2021-06-15T08:27:19.192784131Z"
+    created: "2021-06-15T11:21:20.968735426Z"
     description: Wrapper chart to allow truststore to be shared among cert-initializer
       instances
-    digest: sha256:01036b8d14e8d7aa69ce24f9d0e9115a49972e2059180aebbb254ecd8c115639
+    digest: 60f2e4106666c090b86f44c965073d73f3fa4541dbcf241f5b8a7ff46bf0a05f
     name: cert-wrapper
     urls:
-    - https://amcop.github.io/guilin/charts/cert-wrapper-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:30:41.319351333Z"
-    description: Wrapper chart to allow truststore to be shared among cert-initializer
-      instances
-    digest: sha256:05977d562a53b72c0cf44d3143d92962a227e1f1164de3d818c8bc35a7c8942f
-    name: cert-wrapper
-    urls:
-    - https://amcop.github.io/guilin/charts/cert-wrapper-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:33:26.08273049Z"
-    description: Wrapper chart to allow truststore to be shared among cert-initializer
-      instances
-    digest: sha256:b989fc01b75055cadbe06db187eff1cb4636226ed08909e36522e3352ff6a8da
-    name: cert-wrapper
-    urls:
-    - https://amcop.github.io/guilin/charts/cert-wrapper-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:38:05.685157972Z"
-    description: Wrapper chart to allow truststore to be shared among cert-initializer
-      instances
-    digest: sha256:d132e86eee2f883996d4e207ac0940a6568e2fe33d2ba51059d7a2ba558881ba
-    name: cert-wrapper
-    urls:
-    - https://amcop.github.io/guilin/charts/cert-wrapper-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:19:55.024866276Z"
-    description: Wrapper chart to allow truststore to be shared among cert-initializer
-      instances
-    digest: sha256:30035ea8560f36f2cb3df50515c022dd13112a64ba874bb5bb803d6564628b46
-    name: cert-wrapper
-    urls:
-    - https://amcop.github.io/guilin/charts/cert-wrapper-7.0.1.tgz
+    - cert-wrapper-7.0.1.tgz
     version: 7.0.1
   certInitializer:
   - apiVersion: v1
-    created: "2021-06-15T08:23:32.680914662Z"
+    created: "2021-06-15T11:21:20.979612427Z"
     description: Template used to obtain certificates in onap
-    digest: 3c333235c000c13841c6037017cf604189d958900b16379902204f6c29f07a36
+    digest: 27ee40dee1b169fb1f36202f197fdc7115af55f0529694f9b8a88fc4ffbcd216
     name: certInitializer
     urls:
-    - https://amcop.github.io/guilin/certInitializer-8.0.0.tgz
+    - certInitializer-8.0.0.tgz
     version: 8.0.0
   - apiVersion: v1
-    created: "2021-06-15T08:24:19.587628538Z"
+    created: "2021-06-15T11:21:20.973807798Z"
     description: Template used to obtain certificates in onap
-    digest: sha256:8f42afa16f76a1bff906d460e85146653394c15251d4de2dd9bcef8efc241a45
+    digest: ccee43eb320b9f880162fae4a44383937ab0bc64b288b9eb2c99146dc186a012
     name: certInitializer
     urls:
-    - https://amcop.github.io/guilin/charts/certInitializer-8.0.0.tgz
-    version: 8.0.0
-  - apiVersion: v1
-    created: "2021-06-15T08:25:24.900372325Z"
-    description: Template used to obtain certificates in onap
-    digest: sha256:dd12903e429fd22b4678e2a24b5c4b317e5b584dd94e0e81c63a6b919da3649c
-    name: certInitializer
-    urls:
-    - https://amcop.github.io/guilin/charts/certInitializer-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:28:51.355531163Z"
-    description: Template used to obtain certificates in onap
-    digest: sha256:0f8880395f8ea1c06b13cd3d10ad1a1ad4c3daab58112f27b88956896cd4fb8f
-    name: certInitializer
-    urls:
-    - https://amcop.github.io/guilin/charts/certInitializer-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:31:34.639445849Z"
-    description: Template used to obtain certificates in onap
-    digest: sha256:53f9c84a6863ac09ab1898434101eaa88912ff7ed2753693240da3ea592496de
-    name: certInitializer
-    urls:
-    - https://amcop.github.io/guilin/charts/certInitializer-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:36:16.633682455Z"
-    description: Template used to obtain certificates in onap
-    digest: sha256:b144346c21d760d6863e0dcf1335c7bc2440250bdc83791ee6e878d700dfc4fe
-    name: certInitializer
-    urls:
-    - https://amcop.github.io/guilin/charts/certInitializer-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:18:02.13240424Z"
-    description: Template used to obtain certificates in onap
-    digest: sha256:3280b33791c4285aaaf047c008d98a75efac5d5a3d22a07d40d25df12f38f770
-    name: certInitializer
-    urls:
-    - https://amcop.github.io/guilin/charts/certInitializer-7.0.1.tgz
+    - certInitializer-7.0.1.tgz
     version: 7.0.1
   certManagerCertificate:
   - apiVersion: v1
-    created: "2021-06-15T08:23:32.683519235Z"
+    created: "2021-06-15T11:21:20.982312679Z"
     description: A Helm chart for Cert-Manager Certificate CRD template
-    digest: e15192e922b36dec00d578796289d588fa2ab0960bdff442c7a34a129926ae1a
+    digest: 1312fb7e8835b6d95411b126a3b4afa5b302b7689f547c047784f893def56b65
     name: certManagerCertificate
     urls:
-    - https://amcop.github.io/guilin/certManagerCertificate-8.0.0.tgz
-    version: 8.0.0
-  - apiVersion: v1
-    created: "2021-06-15T08:24:32.468203531Z"
-    description: A Helm chart for Cert-Manager Certificate CRD template
-    digest: sha256:7e546290c31e9b97dd6e475cee7f7ae2d7014c1afe92f4766620a1223dfab577
-    name: certManagerCertificate
-    urls:
-    - https://amcop.github.io/guilin/charts/certManagerCertificate-8.0.0.tgz
+    - certManagerCertificate-8.0.0.tgz
     version: 8.0.0
   clamp:
   - apiVersion: v1
-    created: "2021-06-15T08:42:25.827992706Z"
+    created: "2021-06-15T11:21:21.016021532Z"
     description: ONAP Clamp
-    digest: sha256:435caa66dc5eca101730abd19312ecc09cffa7d0132f00faaea1660ae98ddad0
+    digest: 88d26c5d4e73af9a1300ae676f2130cc9b4747661f30ea893e0c9aee5903a3dd
     name: clamp
     urls:
-    - https://amcop.github.io/guilin/charts/clamp-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:24:14.216352263Z"
-    description: ONAP Clamp
-    digest: sha256:b195943349c848eb1c3576dcaa3d65883b5e5a65a9faec1a821f41690eec0338
-    name: clamp
-    urls:
-    - https://amcop.github.io/guilin/charts/clamp-7.0.1.tgz
+    - clamp-7.0.1.tgz
     version: 7.0.1
   clamp-backend:
   - apiVersion: v1
-    created: "2021-06-15T08:41:23.942772661Z"
+    created: "2021-06-15T11:21:21.020235503Z"
     description: ONAP Clamp
-    digest: sha256:5560ad68c3649be27b35fd37e4df2fcf6dfa5b1e50c165175998f4c12ad29bec
+    digest: 45a8a446be9b20a38ed96d51308ed5155efd422057bd212b11f2f496ebf4e9f6
     name: clamp-backend
     urls:
-    - https://amcop.github.io/guilin/charts/clamp-backend-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:23:14.043762226Z"
-    description: ONAP Clamp
-    digest: sha256:cfb0d7f7f362b01c1279c1845b3dea784f768e8053efcd98c699967bf47fa5da
-    name: clamp-backend
-    urls:
-    - https://amcop.github.io/guilin/charts/clamp-backend-7.0.1.tgz
+    - clamp-backend-7.0.1.tgz
     version: 7.0.1
   clamp-dash-es:
   - apiVersion: v1
-    created: "2021-06-15T08:41:37.301568228Z"
+    created: "2021-06-15T11:21:21.025891515Z"
     description: ONAP Clamp Dashboard Elasticsearch
-    digest: sha256:0916ad4e9937c5c25a50b7c693f31e67d7f951a61808090b3a4a8c5f4adc25ce
+    digest: 6cbb2cb100f07e1645d9040ff934dc128b84f40f81c688b990d385a07124df1b
     name: clamp-dash-es
     urls:
-    - https://amcop.github.io/guilin/charts/clamp-dash-es-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:23:26.798074756Z"
-    description: ONAP Clamp Dashboard Elasticsearch
-    digest: sha256:69264c99bf306a01272343c68b0c8c9f26701624ecc9dfadb8371620f832bb30
-    name: clamp-dash-es
-    urls:
-    - https://amcop.github.io/guilin/charts/clamp-dash-es-7.0.1.tgz
+    - clamp-dash-es-7.0.1.tgz
     version: 7.0.1
   clamp-dash-kibana:
   - apiVersion: v1
-    created: "2021-06-15T08:41:50.999588565Z"
+    created: "2021-06-15T11:21:21.031549466Z"
     description: ONAP Clamp Dashboard Kibana
-    digest: sha256:668acae09a9a1c644434a328d52588cb95f54e4de631a61bcc1236f5fc60e7df
+    digest: ce8ad6d26e8a22a1582f333e6b74b9ccf3613d5ce64e70e77f08c731ca9a781d
     name: clamp-dash-kibana
     urls:
-    - https://amcop.github.io/guilin/charts/clamp-dash-kibana-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:23:39.170031854Z"
-    description: ONAP Clamp Dashboard Kibana
-    digest: sha256:717e639658a837d6e06465b93d2705b5026f721a0263e04d084f70d01812593e
-    name: clamp-dash-kibana
-    urls:
-    - https://amcop.github.io/guilin/charts/clamp-dash-kibana-7.0.1.tgz
+    - clamp-dash-kibana-7.0.1.tgz
     version: 7.0.1
   clamp-dash-logstash:
   - apiVersion: v1
-    created: "2021-06-15T08:42:04.158840741Z"
+    created: "2021-06-15T11:21:21.037242507Z"
     description: ONAP Clamp Dashboard Logstash
-    digest: sha256:e010a456560a29df72ae25cc6d48d896cc8545cc22c3816f0e78dd445b1ec814
+    digest: 9ef2474295d3f413a05f5f35db49006e8a772236c1a3288e1af1186abe07206c
     name: clamp-dash-logstash
     urls:
-    - https://amcop.github.io/guilin/charts/clamp-dash-logstash-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:23:53.214082713Z"
-    description: ONAP Clamp Dashboard Logstash
-    digest: sha256:ba49468bc1f32ed43b5eb769f11b8374570346b7af10417736f1f3d05d39825f
-    name: clamp-dash-logstash
-    urls:
-    - https://amcop.github.io/guilin/charts/clamp-dash-logstash-7.0.1.tgz
+    - clamp-dash-logstash-7.0.1.tgz
     version: 7.0.1
   clamp-mariadb:
   - apiVersion: v1
-    created: "2021-06-15T08:42:15.182877146Z"
+    created: "2021-06-15T11:21:21.04132007Z"
     description: MariaDB Service
-    digest: sha256:36fbbeb400adae2df6851fa2ca2ea503074a6f2cc8d50022de8e704cf262a400
+    digest: 9cb03f11dc4880d81f152580a6185651a5983a3a16574dcdf2c7eee274272bee
     name: clamp-mariadb
     urls:
-    - https://amcop.github.io/guilin/charts/clamp-mariadb-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:24:03.427254045Z"
-    description: MariaDB Service
-    digest: sha256:6dfbec309931e43a5921d38cafe612d2c4d6c5f0c63ca3bbad16d5baaf52780b
-    name: clamp-mariadb
-    urls:
-    - https://amcop.github.io/guilin/charts/clamp-mariadb-7.0.1.tgz
+    - clamp-mariadb-7.0.1.tgz
     version: 7.0.1
   cli:
   - apiVersion: v1
-    created: "2021-06-15T08:42:36.169518529Z"
+    created: "2021-06-15T11:21:21.044579074Z"
     description: ONAP Command Line Interface
-    digest: sha256:847357147ff3b73dceefe7c9cd1c5cd6e32687d8204a6292e4a208d30400d58a
+    digest: 6a22675d1e46b4387c0ecf2041e51671c4e40bd434e84829784dab884ae8589b
     name: cli
     urls:
-    - https://amcop.github.io/guilin/charts/cli-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:24:24.824781375Z"
-    description: ONAP Command Line Interface
-    digest: sha256:ca1396170666edb1a7e2afe3e1cdd28d117b079890b666f571d0d82dd1683846
-    name: cli
-    urls:
-    - https://amcop.github.io/guilin/charts/cli-7.0.1.tgz
+    - cli-7.0.1.tgz
     version: 7.0.1
   cmpv2Config:
   - apiVersion: v1
-    created: "2021-06-15T08:25:32.651225899Z"
+    created: "2021-06-15T11:21:21.046691366Z"
     description: Template used to store cmpv2 configuration in onap
-    digest: sha256:a9157c3efe84fa49cc9e0ca118d7f859f4adc281d719824e8e812db55e81a4d2
+    digest: f1d3b42067a058eda2662159eea65f5c5f5db4482264319182b5b3b3fc066afb
     name: cmpv2Config
     urls:
-    - https://amcop.github.io/guilin/charts/cmpv2Config-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:28:59.131627284Z"
-    description: Template used to store cmpv2 configuration in onap
-    digest: sha256:440939c6f591f6454cc7bdc449a7c67c0447936713a8b163c8033eacb6867190
-    name: cmpv2Config
-    urls:
-    - https://amcop.github.io/guilin/charts/cmpv2Config-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:31:42.955793253Z"
-    description: Template used to store cmpv2 configuration in onap
-    digest: sha256:940c705bfa32b230ca1ee57db886fa7aac94598e39548bf661704de097e54271
-    name: cmpv2Config
-    urls:
-    - https://amcop.github.io/guilin/charts/cmpv2Config-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:36:23.355904887Z"
-    description: Template used to store cmpv2 configuration in onap
-    digest: sha256:967d34826f0f02213e07542228f3bd7298c7f2a9f99e861eb00f94020ef787bf
-    name: cmpv2Config
-    urls:
-    - https://amcop.github.io/guilin/charts/cmpv2Config-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:18:09.207642745Z"
-    description: Template used to store cmpv2 configuration in onap
-    digest: sha256:5c0e842f73944b79168c1c316ab6b21cb596e5eb2cb2dae3d0fdc2608342a249
-    name: cmpv2Config
-    urls:
-    - https://amcop.github.io/guilin/charts/cmpv2Config-7.0.1.tgz
+    - cmpv2Config-7.0.1.tgz
     version: 7.0.1
   common:
   - apiVersion: v1
-    created: "2021-06-15T08:23:32.686241797Z"
+    created: "2021-06-15T11:21:21.050237372Z"
     description: Common templates for inclusion in other charts
-    digest: aae4148d9df9bf8c717c02025e07164c0fc7e866a258db1f0548bdeec2791645
+    digest: d8f21213bd307c380df2c88fbb9613b829c8b19864cc7274f3ebcb2348ca0036
     name: common
     urls:
-    - https://amcop.github.io/guilin/common-8.0.0.tgz
+    - common-8.0.0.tgz
     version: 8.0.0
   - apiVersion: v1
-    created: "2021-06-15T08:23:58.722537822Z"
+    created: "2021-06-15T11:21:21.048452783Z"
     description: Common templates for inclusion in other charts
-    digest: sha256:b2aabc922e40a88bdb5d5024ff33f9cf62501ad786f2dc05758d3db4c77729b7
+    digest: 9318e8764d5dc8546ed0fb1612041e23cdc5a12f9fc2fdb3dc3b43c8f787a8ad
     name: common
     urls:
-    - https://amcop.github.io/guilin/charts/common-8.0.0.tgz
-    version: 8.0.0
-  - apiVersion: v1
-    created: "2021-06-15T08:25:11.062961649Z"
-    description: Common templates for inclusion in other charts
-    digest: sha256:85e9f3540a22030dcddf477ba77103f26df3ad6d50b78dc73be0c15ff0568600
-    name: common
-    urls:
-    - https://amcop.github.io/guilin/charts/common-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:28:36.672243486Z"
-    description: Common templates for inclusion in other charts
-    digest: sha256:6efadc5e06ace52a56c87e34da515628e9ebbca0f2e66aca5eec1f91dc965c21
-    name: common
-    urls:
-    - https://amcop.github.io/guilin/charts/common-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:31:20.310197911Z"
-    description: Common templates for inclusion in other charts
-    digest: sha256:ec177ef2cf993303e50b44ae481ba44e186bbef1f4fe77d3e7ec1910279b2224
-    name: common
-    urls:
-    - https://amcop.github.io/guilin/charts/common-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:36:02.756084029Z"
-    description: Common templates for inclusion in other charts
-    digest: sha256:fdf9aa1e490461b6b68292931b399a6ba061e19e2b98286e0a88fdadb7af4788
-    name: common
-    urls:
-    - https://amcop.github.io/guilin/charts/common-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:17:47.385351958Z"
-    description: Common templates for inclusion in other charts
-    digest: sha256:da1539cffafc8a4b8f9a876d9043b9f94d2ca070e515521f122a81ee972fe424
-    name: common
-    urls:
-    - https://amcop.github.io/guilin/charts/common-7.0.1.tgz
+    - common-7.0.1.tgz
     version: 7.0.1
   consul:
   - apiVersion: v1
-    created: "2021-06-15T08:42:46.694986617Z"
+    created: "2021-06-15T11:21:21.053771849Z"
     description: ONAP Consul Agent
-    digest: sha256:e951b4a1a9d78bb566d4b7416cea35412ccad2f36788b2a091f714b6b4a41fc0
+    digest: 352f7d9c6dcb95984a1632b760c371ee7d4b97476c9b1d1a604546e32fd498a4
     name: consul
     urls:
-    - https://amcop.github.io/guilin/charts/consul-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:24:35.460507071Z"
-    description: ONAP Consul Agent
-    digest: sha256:6419ccac2b56c0824146164779876288759affb710254cf7157a6be48e0a382e
-    name: consul
-    urls:
-    - https://amcop.github.io/guilin/charts/consul-7.0.1.tgz
+    - consul-7.0.1.tgz
     version: 7.0.1
   contrib:
   - apiVersion: v1
-    created: "2021-06-15T08:43:42.08924227Z"
+    created: "2021-06-15T11:21:21.069260752Z"
     description: ONAP optional tools
-    digest: sha256:8120a926d37e8a0751bdc64ac0e7ec851be97f315c3ace7723aec0c8f5244dde
+    digest: a8728998dbfb38759a6f32bc58b8473e2a5868e951af94a8e4839ad50683f61e
     name: contrib
     urls:
-    - https://amcop.github.io/guilin/charts/contrib-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:25:34.322208585Z"
-    description: ONAP optional tools
-    digest: sha256:0c87aa60ea65ca3ba9f9f3980243c8c117aebbf2ccbbfe4300855722d62dfd62
-    name: contrib
-    urls:
-    - https://amcop.github.io/guilin/charts/contrib-7.0.1.tgz
+    - contrib-7.0.1.tgz
     version: 7.0.1
   dcaegen2:
   - apiVersion: v1
-    created: "2021-06-15T08:45:41.341202166Z"
+    created: "2021-06-15T11:21:21.100524531Z"
     description: ONAP DCAE Gen2
-    digest: sha256:fa02aa9116a1dd68566d5e22fdab5d7962c7d476b67fc41087cd782d78da7796
+    digest: 6deed4904c272f19877c109732774075f5d8156363f0cdd02aa998e8c96461c8
     name: dcaegen2
     urls:
-    - https://amcop.github.io/guilin/charts/dcaegen2-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:27:33.681400984Z"
-    description: ONAP DCAE Gen2
-    digest: sha256:5d32c3093c1a229a8d5e5f7f161d43a38126ea60f69ad010d8c0f6a59f851734
-    name: dcaegen2
-    urls:
-    - https://amcop.github.io/guilin/charts/dcaegen2-7.0.1.tgz
+    - dcaegen2-7.0.1.tgz
     version: 7.0.1
   dcaemod:
   - apiVersion: v1
-    created: "2021-06-15T08:47:03.480617223Z"
+    created: "2021-06-15T11:21:21.122480683Z"
     description: ONAP DCAE MOD
-    digest: sha256:1cdb66f515743aecf93e494986f100bc303b6712bf9471f477059bcde1f089c1
+    digest: da6d62ae0e136613a20228b056a97a9d31db0d1aae82bcf5fbfaa9b4b6bcd845
     name: dcaemod
     urls:
-    - https://amcop.github.io/guilin/charts/dcaemod-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:28:53.730247471Z"
-    description: ONAP DCAE MOD
-    digest: sha256:1b6627bc040a248e754a78dfa34e557c105ca8b7d87b65583c818193b6d886c8
-    name: dcaemod
-    urls:
-    - https://amcop.github.io/guilin/charts/dcaemod-7.0.1.tgz
+    - dcaemod-7.0.1.tgz
     version: 7.0.1
   dgbuilder:
   - apiVersion: v1
-    created: "2021-06-15T08:25:44.854725067Z"
+    created: "2021-06-15T11:21:21.129400913Z"
     description: D.G. Builder application
-    digest: sha256:9385962282700c7ea459eb8a01009d720c272532b8381deb518769fbc320cf4b
+    digest: 54e661d8906b554571800a5e7c94fb73efc2fc9d1a3c3dd8a63cbff83579d9fb
     name: dgbuilder
     urls:
-    - https://amcop.github.io/guilin/charts/dgbuilder-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:29:11.622762801Z"
-    description: D.G. Builder application
-    digest: sha256:f89ac5da9b9a618ffe52bd2c7e992054fd44edca08ebfc07150663000ff80501
-    name: dgbuilder
-    urls:
-    - https://amcop.github.io/guilin/charts/dgbuilder-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:31:55.601771211Z"
-    description: D.G. Builder application
-    digest: sha256:e3ffe4079f38c6cceb668c78e09d993cb1f408f72adbd998bc02ad122cc36216
-    name: dgbuilder
-    urls:
-    - https://amcop.github.io/guilin/charts/dgbuilder-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:36:35.157752798Z"
-    description: D.G. Builder application
-    digest: sha256:af19dc177956d12759d4e43e89d8a541ce50cac7821a17ebc1d29c49fbbb27fa
-    name: dgbuilder
-    urls:
-    - https://amcop.github.io/guilin/charts/dgbuilder-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:18:22.085265696Z"
-    description: D.G. Builder application
-    digest: sha256:af9ab52428f3221159da4a992907a50a32c72f62c10ad327dac5f17624a1b7aa
-    name: dgbuilder
-    urls:
-    - https://amcop.github.io/guilin/charts/dgbuilder-7.0.1.tgz
+    - dgbuilder-7.0.1.tgz
     version: 7.0.1
   dmaap:
   - apiVersion: v1
-    created: "2021-06-15T08:48:12.376105757Z"
+    created: "2021-06-15T11:21:21.162008742Z"
     description: ONAP DMaaP components
-    digest: sha256:daac053da24b3fd6f79292240f826b62ef01ada20241eef0d3f82cdbbd5d24d9
+    digest: b525f79c715022091a4a52afed046d75c6097c37389ee2b2a232567c354a9d2d
     name: dmaap
     urls:
-    - https://amcop.github.io/guilin/charts/dmaap-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:30:02.272258833Z"
-    description: ONAP DMaaP components
-    digest: sha256:c5aeec624ed82d81d3ceb276ea9fe7977aa317a9795cea0d089c62a6ccb46ee9
-    name: dmaap
-    urls:
-    - https://amcop.github.io/guilin/charts/dmaap-7.0.1.tgz
+    - dmaap-7.0.1.tgz
     version: 7.0.1
   dmaap-listener:
   - apiVersion: v1
-    created: "2021-06-15T10:40:53.836756561Z"
+    created: "2021-06-15T11:21:21.164722254Z"
     description: SDNC DMaaP Listener
-    digest: sha256:615c397282afbce2aa292d58021480f00ece9805466b01ccffbf1b4a7180b6f6
+    digest: f5b5de01031dcb63dec7f02c1af8c18c120582de0bf1db4bb7493a45aa9b8076
     name: dmaap-listener
     urls:
-    - https://amcop.github.io/guilin/charts/dmaap-listener-7.0.1.tgz
+    - dmaap-listener-7.0.1.tgz
     version: 7.0.1
   elasticsearch:
   - apiVersion: v1
-    created: "2021-06-15T08:25:53.656148748Z"
+    created: "2021-06-15T11:21:21.172833201Z"
     description: ONAP elasticsearch
-    digest: sha256:e4a7e6667f57db204c082a023bf45d3c5ee7d37872ee82ad5a5b7e52bd604dc5
+    digest: 877a27142e9e45f96005c0e885e2a5eb835d975b5abe2e4cc9484bb785bda42c
     name: elasticsearch
     urls:
-    - https://amcop.github.io/guilin/charts/elasticsearch-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:29:19.899251777Z"
-    description: ONAP elasticsearch
-    digest: sha256:9e5906c583ecedc4c58d8962e7e94185a507dced8e105142dcc955bae2abcb5e
-    name: elasticsearch
-    urls:
-    - https://amcop.github.io/guilin/charts/elasticsearch-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:32:04.280438156Z"
-    description: ONAP elasticsearch
-    digest: sha256:ee630c1ed3b63799b9cb82f86646a458de2e7ca9db193c3548498ee08a8fcce9
-    name: elasticsearch
-    urls:
-    - https://amcop.github.io/guilin/charts/elasticsearch-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:36:42.827296832Z"
-    description: ONAP elasticsearch
-    digest: sha256:13f9c6c257db4f12d8bad533daba5d651985c1bdbe9a5cb5c69d8c5ffe7a9521
-    name: elasticsearch
-    urls:
-    - https://amcop.github.io/guilin/charts/elasticsearch-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:18:30.76207683Z"
-    description: ONAP elasticsearch
-    digest: sha256:220c6fde2d89abdb99559811f6461eec8e12e2956a07798382017be1120b92e9
-    name: elasticsearch
-    urls:
-    - https://amcop.github.io/guilin/charts/elasticsearch-7.0.1.tgz
+    - elasticsearch-7.0.1.tgz
     version: 7.0.1
   esr:
   - apiVersion: v1
-    created: "2021-06-15T08:48:22.161042077Z"
+    created: "2021-06-15T11:21:21.175657584Z"
     description: ONAP External System Register
-    digest: sha256:16364c84889cee0d461d4e740cdddf9a8cfb5aea6c55eab36d3c5b8ce446129d
+    digest: 4c831f97979ee6da49c4830654045d79ea5cd1982056a3dc8cd070b57acc8f65
     name: esr
     urls:
-    - https://amcop.github.io/guilin/charts/esr-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:30:12.327902878Z"
-    description: ONAP External System Register
-    digest: sha256:a9f4fd5bfeaa3f7e339f57964085bccd0bfe8b8c268a3ad711ad1bf63f440a0c
-    name: esr
-    urls:
-    - https://amcop.github.io/guilin/charts/esr-7.0.1.tgz
+    - esr-7.0.1.tgz
     version: 7.0.1
   etcd:
   - apiVersion: v1
     appVersion: 2.2.5
-    created: "2021-06-15T08:26:01.20636037Z"
+    created: "2021-06-15T11:21:21.178082098Z"
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
-    digest: sha256:fb853811791c5f1ded1bc03d7011e891c67d002f0a85d824f842075f19cb09d2
+    digest: 7205bc708edd8e033d8292aaff02387acedff47ac41a00c7a5557ebd3b24eb34
     home: https://github.com/coreos/etcd
     name: etcd
     sources:
     - https://github.com/coreos/etcd
     urls:
-    - https://amcop.github.io/guilin/charts/etcd-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    appVersion: 2.2.5
-    created: "2021-06-15T08:29:26.463941745Z"
-    description: Distributed reliable key-value store for the most critical data of
-      a distributed system.
-    digest: sha256:2e669d0cff1110dfab49865cbebcee04b465b6d078f4c28e1e2b1829b16f0948
-    home: https://github.com/coreos/etcd
-    name: etcd
-    sources:
-    - https://github.com/coreos/etcd
-    urls:
-    - https://amcop.github.io/guilin/charts/etcd-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    appVersion: 2.2.5
-    created: "2021-06-15T08:32:11.255776658Z"
-    description: Distributed reliable key-value store for the most critical data of
-      a distributed system.
-    digest: sha256:195ab0e4e0104b07864a359a8dd922255f4e82ae6e448227a6d1fd8b3402d33b
-    home: https://github.com/coreos/etcd
-    name: etcd
-    sources:
-    - https://github.com/coreos/etcd
-    urls:
-    - https://amcop.github.io/guilin/charts/etcd-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    appVersion: 2.2.5
-    created: "2021-06-15T08:36:50.0837705Z"
-    description: Distributed reliable key-value store for the most critical data of
-      a distributed system.
-    digest: sha256:eecd3e73b71497abb9dd0fda0cda66ab8924dc242f1dc9f9c9c0f3f4df7aabae
-    home: https://github.com/coreos/etcd
-    name: etcd
-    sources:
-    - https://github.com/coreos/etcd
-    urls:
-    - https://amcop.github.io/guilin/charts/etcd-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    appVersion: 2.2.5
-    created: "2021-06-15T10:18:37.435257064Z"
-    description: Distributed reliable key-value store for the most critical data of
-      a distributed system.
-    digest: sha256:8bea28cee1591a81741e77176b46257b659ab80e31413fa1caa0e158137333e9
-    home: https://github.com/coreos/etcd
-    name: etcd
-    sources:
-    - https://github.com/coreos/etcd
-    urls:
-    - https://amcop.github.io/guilin/charts/etcd-7.0.1.tgz
+    - etcd-7.0.1.tgz
     version: 7.0.1
   log:
   - apiVersion: v1
-    created: "2021-06-15T08:48:32.464016278Z"
+    created: "2021-06-15T11:21:21.181627825Z"
     description: ONAP Logging ElasticStack
-    digest: sha256:a8c2bafe30df6661fac99193d6cb5c189de8d19352305aca4e15dcb268bb1636
+    digest: 7c85e24c2d29bf2a43d9b3c7d08bc9bf14f1b6fc978a8f800a4a11edf036837c
     name: log
     urls:
-    - https://amcop.github.io/guilin/charts/log-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:30:22.066094605Z"
-    description: ONAP Logging ElasticStack
-    digest: sha256:55c640b9d9b39e019de651b4f80da6cb9a7cbeedc80b3ec24260051824717f58
-    name: log
-    urls:
-    - https://amcop.github.io/guilin/charts/log-7.0.1.tgz
+    - log-7.0.1.tgz
     version: 7.0.1
   logConfiguration:
   - apiVersion: v1
-    created: "2021-06-15T08:26:08.18707221Z"
+    created: "2021-06-15T11:21:21.183645904Z"
     description: Template used to create same STDOUT log configuration
-    digest: sha256:a145f1e51564cca141031bd5c1f1a0d0c30d63d2cd3e26995d6d29953982a72f
+    digest: fc9539fa4b317098919a6daa96cab64be5af3e3fdc30d2b114cc1a693360a58a
     name: logConfiguration
     urls:
-    - https://amcop.github.io/guilin/charts/logConfiguration-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:29:33.625739012Z"
-    description: Template used to create same STDOUT log configuration
-    digest: sha256:3a45667424e1d81233068c65ec4ebd2ec5cf38e24e4b3d6f2d28c2c5a322a8eb
-    name: logConfiguration
-    urls:
-    - https://amcop.github.io/guilin/charts/logConfiguration-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:32:18.341042363Z"
-    description: Template used to create same STDOUT log configuration
-    digest: sha256:74e49c85eb24599a9222f6d0541a6a28d338e121269991c205c8ede571afe254
-    name: logConfiguration
-    urls:
-    - https://amcop.github.io/guilin/charts/logConfiguration-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:36:56.968167512Z"
-    description: Template used to create same STDOUT log configuration
-    digest: sha256:23dffe7ff6f149777ae566532222f3aefafa777f77cae53befe734fd3639f4fa
-    name: logConfiguration
-    urls:
-    - https://amcop.github.io/guilin/charts/logConfiguration-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:18:44.307173599Z"
-    description: Template used to create same STDOUT log configuration
-    digest: sha256:5b09ef538fe8b91420d1db50ab8430c838dd097c3bde5acf5023ad5983fd4f11
-    name: logConfiguration
-    urls:
-    - https://amcop.github.io/guilin/charts/logConfiguration-7.0.1.tgz
+    - logConfiguration-7.0.1.tgz
     version: 7.0.1
   mariadb-galera:
   - apiVersion: v1
-    created: "2021-06-15T08:26:16.205404308Z"
+    created: "2021-06-15T11:21:21.186179293Z"
     description: Chart for MariaDB Galera cluster
-    digest: sha256:1161c97fd212921f99e1abd89f20725474cb638dd35fc4b9e2842fa5e90fb33f
+    digest: 1510a8d1c4257937dc33962c1d529f2f3c9094dadc475476c16adeff4a44e563
     keywords:
     - mariadb
     - mysql
@@ -999,306 +414,86 @@ entries:
     - cluster
     name: mariadb-galera
     urls:
-    - https://amcop.github.io/guilin/charts/mariadb-galera-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:29:41.151398363Z"
-    description: Chart for MariaDB Galera cluster
-    digest: sha256:e898dfcb31b9c8048a87e3200c58204b7c3d5721203a785dfd3886265b4d01df
-    keywords:
-    - mariadb
-    - mysql
-    - database
-    - sql
-    - galera
-    - cluster
-    name: mariadb-galera
-    urls:
-    - https://amcop.github.io/guilin/charts/mariadb-galera-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:32:26.281270212Z"
-    description: Chart for MariaDB Galera cluster
-    digest: sha256:ca77e4c56dc8fd7a809f4e4b0695eaa39cffcf14cf292c8f0126fd013962b27c
-    keywords:
-    - mariadb
-    - mysql
-    - database
-    - sql
-    - galera
-    - cluster
-    name: mariadb-galera
-    urls:
-    - https://amcop.github.io/guilin/charts/mariadb-galera-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:37:04.617015418Z"
-    description: Chart for MariaDB Galera cluster
-    digest: sha256:b73ef54185f0e8f95f6fa80f80ab36b888f049b376ff79975cb10b0cb2fceea2
-    keywords:
-    - mariadb
-    - mysql
-    - database
-    - sql
-    - galera
-    - cluster
-    name: mariadb-galera
-    urls:
-    - https://amcop.github.io/guilin/charts/mariadb-galera-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:18:52.227695342Z"
-    description: Chart for MariaDB Galera cluster
-    digest: sha256:cad1d887ce5489beaa3ae27d1ce4c14f1d67bb9328c6e2090f2187386cc99190
-    keywords:
-    - mariadb
-    - mysql
-    - database
-    - sql
-    - galera
-    - cluster
-    name: mariadb-galera
-    urls:
-    - https://amcop.github.io/guilin/charts/mariadb-galera-7.0.1.tgz
+    - mariadb-galera-7.0.1.tgz
     version: 7.0.1
   mariadb-init:
   - apiVersion: v1
-    created: "2021-06-15T08:26:23.632535675Z"
+    created: "2021-06-15T11:21:21.188345724Z"
     description: Chart for MariaDB Galera init job
-    digest: sha256:69d55077eec92b718269dd8dfe73b5f93a16a667ab3b7b054d092bda1fe7f5f5
+    digest: 377aebd53a53374423fb3c6a793bebf87310b7ff108d07e700c16a84fefaecb9
     name: mariadb-init
     urls:
-    - https://amcop.github.io/guilin/charts/mariadb-init-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:29:48.557227779Z"
-    description: Chart for MariaDB Galera init job
-    digest: sha256:0030975b81aafa288b477e64b21b2cff1d936ef23bd22eeba864bc57cad86618
-    name: mariadb-init
-    urls:
-    - https://amcop.github.io/guilin/charts/mariadb-init-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:32:33.930786267Z"
-    description: Chart for MariaDB Galera init job
-    digest: sha256:4d966129767ae430fc121ffb39fe4c11d411fc18dd66cbebba4f07a52f8bc43d
-    name: mariadb-init
-    urls:
-    - https://amcop.github.io/guilin/charts/mariadb-init-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:37:11.767963451Z"
-    description: Chart for MariaDB Galera init job
-    digest: sha256:d2d9ed6a1cf37d886c610ddc4262930043f28065db9d533c7990d19eefd2d076
-    name: mariadb-init
-    urls:
-    - https://amcop.github.io/guilin/charts/mariadb-init-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:18:59.551016069Z"
-    description: Chart for MariaDB Galera init job
-    digest: sha256:804a95c273e18f86f915d84fa5965f3a6e791da382b715a55c2a97c701e50451
-    name: mariadb-init
-    urls:
-    - https://amcop.github.io/guilin/charts/mariadb-init-7.0.1.tgz
+    - mariadb-init-7.0.1.tgz
     version: 7.0.1
   modeling:
   - apiVersion: v1
-    created: "2021-06-15T08:49:03.597687753Z"
+    created: "2021-06-15T11:21:21.202454726Z"
     description: ONAP Modeling (Modeling)
-    digest: sha256:9f1473ead7c9be09e1d45ca24325db17968453a7cb0c490860f525b1251dc20b
+    digest: 6421c04c8407abd1395fe553b3399bdfba45467eee5043d5e189834a95c52bad
     name: modeling
     urls:
-    - https://amcop.github.io/guilin/charts/modeling-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:30:50.717734813Z"
-    description: ONAP Modeling (Modeling)
-    digest: sha256:ef9ab2e852ea09465f3934d271b7b828fccc10e012bc647aff94bdd456a96acf
-    name: modeling
-    urls:
-    - https://amcop.github.io/guilin/charts/modeling-7.0.1.tgz
+    - modeling-7.0.1.tgz
     version: 7.0.1
   mongo:
   - apiVersion: v1
-    created: "2021-06-15T08:26:30.615043357Z"
+    created: "2021-06-15T11:21:21.205173546Z"
     description: MongoDB Server
-    digest: sha256:c3802db90ee26c2e55f07be33937f693968b8962cc132f37477fa477f1d7a63a
+    digest: eb4c271ed8c0328b2dabb02e89ce475695cf59ff06ed48eb68f4ad88125f6f19
     name: mongo
     urls:
-    - https://amcop.github.io/guilin/charts/mongo-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:29:56.024228165Z"
-    description: MongoDB Server
-    digest: sha256:55dc97b3780fe69a919d75f1dc5556d04cd4bbfcf7d6c3cf4459d519878b0e90
-    name: mongo
-    urls:
-    - https://amcop.github.io/guilin/charts/mongo-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:32:41.031049831Z"
-    description: MongoDB Server
-    digest: sha256:7d461e1869760948394081b6b98e8eb1af70f42ea0d163d2cf284f139dde78da
-    name: mongo
-    urls:
-    - https://amcop.github.io/guilin/charts/mongo-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:37:18.852546943Z"
-    description: MongoDB Server
-    digest: sha256:fbcfd8807e29ad62d2c916ab50942f2671ac15d1e2232e4a2a7f81ae71c91460
-    name: mongo
-    urls:
-    - https://amcop.github.io/guilin/charts/mongo-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:19:06.42039838Z"
-    description: MongoDB Server
-    digest: sha256:7286b84102da830a3db89e550d4b3f49b2173b1a52902eb2d153d088a4ec5f82
-    name: mongo
-    urls:
-    - https://amcop.github.io/guilin/charts/mongo-7.0.1.tgz
+    - mongo-7.0.1.tgz
     version: 7.0.1
   msb:
   - apiVersion: v1
-    created: "2021-06-15T08:49:13.580574447Z"
+    created: "2021-06-15T11:21:21.210319459Z"
     description: ONAP MicroServices Bus
-    digest: sha256:35dc4f9a2509997203ab04e668cde65c931d0b390104348885720f5ea8130a52
+    digest: edb3ac6ca16f05041d494bc0ad1b503014aa7a291f8ae35deb4c7dbf3a39a7d4
     name: msb
     urls:
-    - https://amcop.github.io/guilin/charts/msb-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:31:00.439637472Z"
-    description: ONAP MicroServices Bus
-    digest: sha256:49f9a6470fdbf7b02d9e272142629c542a9170f90d2dcc902fd39f74ae9a8b26
-    name: msb
-    urls:
-    - https://amcop.github.io/guilin/charts/msb-7.0.1.tgz
+    - msb-7.0.1.tgz
     version: 7.0.1
   multicloud:
   - apiVersion: v1
-    created: "2021-06-15T08:49:39.33972339Z"
+    created: "2021-06-15T11:21:21.22300308Z"
     description: ONAP multicloud broker
-    digest: sha256:3ebf421df2cc785bc681d469d841e8a2a976b393ee512a74ef2eb8b924fbf354
+    digest: d3b178c4afa6e6812003af90319bb0b0dbac1335d7de675c0753d8ba34854b06
     name: multicloud
     urls:
-    - https://amcop.github.io/guilin/charts/multicloud-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:31:24.606696246Z"
-    description: ONAP multicloud broker
-    digest: sha256:9f72d0260bf1209c0073402148078d515745f23c81334f27c3201c7ee53c0d7a
-    name: multicloud
-    urls:
-    - https://amcop.github.io/guilin/charts/multicloud-7.0.1.tgz
+    - multicloud-7.0.1.tgz
     version: 7.0.1
   music:
   - apiVersion: v1
-    created: "2021-06-15T08:26:37.616247747Z"
+    created: "2021-06-15T11:21:21.230686731Z"
     description: MUSIC - Multi-site State Coordination Service
-    digest: sha256:98cfd56207173af1e4c179fabb21f743438b18bfe17296797653cbe1edc8b7e1
+    digest: f1ebd106a81c702595e9d7b086e3bf5e91f9db9e09c3210e39c8cbe4dc233faf
     name: music
     urls:
-    - https://amcop.github.io/guilin/charts/music-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:30:02.701227473Z"
-    description: MUSIC - Multi-site State Coordination Service
-    digest: sha256:067f80cd404ccf50ea87e390ca3d145fe2aebe0b7456eb7115180db15b87293d
-    name: music
-    urls:
-    - https://amcop.github.io/guilin/charts/music-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:32:47.99740764Z"
-    description: MUSIC - Multi-site State Coordination Service
-    digest: sha256:4553656a1879506a7ce097eb5832886d7a67dd737de13a3e659e9d1d0ec52e34
-    name: music
-    urls:
-    - https://amcop.github.io/guilin/charts/music-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:37:26.17116765Z"
-    description: MUSIC - Multi-site State Coordination Service
-    digest: sha256:456cf166bc7c19f5959b6e8ced2f958ec182ac9e4d9086207bd67842f1c57872
-    name: music
-    urls:
-    - https://amcop.github.io/guilin/charts/music-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:19:13.702099231Z"
-    description: MUSIC - Multi-site State Coordination Service
-    digest: sha256:dc9cf66a40b4fc6986852f18db3d9663397aeae16cb52d8d7c25bed855fa65c5
-    name: music
-    urls:
-    - https://amcop.github.io/guilin/charts/music-7.0.1.tgz
+    - music-7.0.1.tgz
     version: 7.0.1
   nbi:
   - apiVersion: v1
-    created: "2021-06-15T08:50:01.689245596Z"
+    created: "2021-06-15T11:21:21.244903349Z"
     description: ONAP Northbound Interface
-    digest: sha256:eedc0bbb619e77c01108399579ea2862f6ff7bc7006d8d1488590554363d84be
+    digest: ed9751d442a9f1e35416f814a79bf50188266a463f71cf088d6c18b0e821fd81
     name: nbi
     urls:
-    - https://amcop.github.io/guilin/charts/nbi-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:31:47.064998049Z"
-    description: ONAP Northbound Interface
-    digest: sha256:951953244a7712fc8859f201a507d028887fc15a25f534f92355101df3a840c2
-    name: nbi
-    urls:
-    - https://amcop.github.io/guilin/charts/nbi-7.0.1.tgz
+    - nbi-7.0.1.tgz
     version: 7.0.1
   network-name-gen:
   - apiVersion: v1
-    created: "2021-06-15T08:26:47.486686362Z"
+    created: "2021-06-15T11:21:21.251528346Z"
     description: Name Generation Micro Service
-    digest: sha256:8326568fdd0a8c8dbaac3b80d1f6d16760464340df99494f22c6aa2fc127ca36
+    digest: f951885450535b0432489d5e8f65fe8e858248575c75afce410f5013f0c25cda
     name: network-name-gen
     urls:
-    - https://amcop.github.io/guilin/charts/network-name-gen-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:30:12.552772612Z"
-    description: Name Generation Micro Service
-    digest: sha256:f9a538d365c60540de642f69b70d028f0ff9e3f632f622cf27d82aede686ad25
-    name: network-name-gen
-    urls:
-    - https://amcop.github.io/guilin/charts/network-name-gen-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:32:57.070050948Z"
-    description: Name Generation Micro Service
-    digest: sha256:a23a3b1a2658980c882fc723d16aaf7c7a5dccb4a584c82f901c36848d65ab3e
-    name: network-name-gen
-    urls:
-    - https://amcop.github.io/guilin/charts/network-name-gen-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:37:36.187786507Z"
-    description: Name Generation Micro Service
-    digest: sha256:51a7e64ee3e905bb4204d0623bb8886c9608f6ab842ccef9ae5807ded55e0f37
-    name: network-name-gen
-    urls:
-    - https://amcop.github.io/guilin/charts/network-name-gen-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:19:23.764603943Z"
-    description: Name Generation Micro Service
-    digest: sha256:37f4cfeb7ed49ce52a7e0ec4d047124b467e5295b7fda1a7d4d9c3e04500f276
-    name: network-name-gen
-    urls:
-    - https://amcop.github.io/guilin/charts/network-name-gen-7.0.1.tgz
+    - network-name-gen-7.0.1.tgz
     version: 7.0.1
   onap:
   - apiVersion: v1
     appVersion: Guilin
-    created: "2021-06-15T10:49:33.756088373Z"
+    created: "2021-06-15T11:21:21.900088272Z"
     description: Open Network Automation Platform (ONAP)
-    digest: sha256:29358a89eba61c702bf79d002c740b58e83417786edeb83a482af10456b0faff
+    digest: 63cfbaa0d21b0f4b37ca92812278f06f42564b9462a397f76bc2462ea5720f38
     home: https://www.onap.org/
     icon: https://wiki.onap.org/download/thumbnails/1015829/onap_704x271%20copy.png?version=1&modificationDate=1488326334000&api=v2
     kubeVersion: '>=1.11.5-0'
@@ -1306,884 +501,660 @@ entries:
     sources:
     - https://gerrit.onap.org/r/#/admin/projects/
     urls:
-    - https://amcop.github.io/guilin/charts/onap-7.0.1.tgz
+    - onap-7.0.1.tgz
     version: 7.0.1
   oof:
   - apiVersion: v1
-    created: "2021-06-15T08:53:17.771258682Z"
+    created: "2021-06-15T11:21:21.96784505Z"
     description: ONAP Optimization Framework
-    digest: sha256:d20d02e81d5ca255b1abdcb20e9e600b80ccaf800765fcb48ed5fe93e9bc3288
+    digest: e83a5697fe57fc6fd752e587ff5ec0dee0a6b4032cde7f451ea1cf004145daa8
     name: oof
     urls:
-    - https://amcop.github.io/guilin/charts/oof-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:35:24.235528667Z"
-    description: ONAP Optimization Framework
-    digest: sha256:c769c6e778bcf5161dd0290d5ca197d038769a8215aa6c07276c9c19fd440099
-    name: oof
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-7.0.1.tgz
+    - oof-7.0.1.tgz
     version: 7.0.1
   oof-cmso:
   - apiVersion: v1
-    created: "2021-06-15T08:51:37.302781654Z"
+    created: "2021-06-15T11:21:22.000621245Z"
     description: Chart for Change Management Service Orchestrator (CMSO)
-    digest: sha256:9a471a823907273e074c26616e2e55f0de5f41c872fa59a3154afeadcf7adf74
+    digest: 944efdb71011f4b6c06645af46037565de1ada87d097d17eab11b946361326c8
     name: oof-cmso
     urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:33:34.266363791Z"
-    description: Chart for Change Management Service Orchestrator (CMSO)
-    digest: sha256:c5766088f0ff8b137e4408ee2a6d87214122f33d58052675d93a1c3ee03519d7
-    name: oof-cmso
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-7.0.1.tgz
+    - oof-cmso-7.0.1.tgz
     version: 7.0.1
   oof-cmso-optimizer:
   - apiVersion: v1
-    created: "2021-06-15T08:50:17.760082133Z"
+    created: "2021-06-15T11:21:22.006718673Z"
     description: Chart for Change Management Service Orchestrator (CMSO) Optimizer
-    digest: sha256:e03c3b981ed5023fcd0974cc01c4d33a2a1f7fdb8cc3676ac0ae77dd7015e329
+    digest: 389884a7d564841bee10cf2886747354b0e5bb16300119e8b4b7eb4a3b297e5b
     name: oof-cmso-optimizer
     urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-optimizer-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:32:03.564408244Z"
-    description: Chart for Change Management Service Orchestrator (CMSO) Optimizer
-    digest: sha256:db106ec2c579634f5c1d12ee82a37b171e20bf00671ac04d8156b9b99b969626
-    name: oof-cmso-optimizer
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-optimizer-7.0.1.tgz
+    - oof-cmso-optimizer-7.0.1.tgz
     version: 7.0.1
   oof-cmso-service:
   - apiVersion: v1
-    created: "2021-06-15T08:50:31.844806162Z"
+    created: "2021-06-15T11:21:22.012764992Z"
     description: Chart for Change Management Service Orchestrator (CMSO) Service
-    digest: sha256:e66469eac688518ec452411fba82e68dc9835e6752bacd603695ebb883431689
+    digest: 1086df846339182fbb7ac8bd968ef01b70e2b585e5df75cc3bdbba2368c4d15f
     name: oof-cmso-service
     urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-service-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:32:17.83438341Z"
-    description: Chart for Change Management Service Orchestrator (CMSO) Service
-    digest: sha256:2cb345281c73e42d0c59157af58bc58938f0ed2de6c267c4857767d6b437e571
-    name: oof-cmso-service
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-service-7.0.1.tgz
+    - oof-cmso-service-7.0.1.tgz
     version: 7.0.1
   oof-cmso-ticketmgt:
   - apiVersion: v1
-    created: "2021-06-15T08:50:45.460762834Z"
+    created: "2021-06-15T11:21:22.018281906Z"
     description: Chart for Change Management Service Orchestrator (CMSO) Ticket Management
-    digest: sha256:2437ad727ec893ae9a30abb4de7d3b81dcf1bc53ac62a41e81b69faa9dfc2171
+    digest: 3f929d35b393ef5ed17b5386b573195394117cf5eef1268458e3d1bda9b69eaa
     name: oof-cmso-ticketmgt
     urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-ticketmgt-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:32:31.642562298Z"
-    description: Chart for Change Management Service Orchestrator (CMSO) Ticket Management
-    digest: sha256:8ec4c2718abc3e4d1ddfd95eaa622758775024d76609e72991c50f9bdfacb191
-    name: oof-cmso-ticketmgt
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-ticketmgt-7.0.1.tgz
+    - oof-cmso-ticketmgt-7.0.1.tgz
     version: 7.0.1
   oof-cmso-topology:
   - apiVersion: v1
-    created: "2021-06-15T08:50:58.943632797Z"
+    created: "2021-06-15T11:21:22.02401829Z"
     description: Chart for Change Management Service Orchestrator (CMSO) Service
-    digest: sha256:7f000004ea45c6c927315401914a403d479e90ae8b1b25e2de6097df145a89dc
+    digest: 41ba09a1a22c021837ce473e3ad8785f1c4730491499d8cd6af3e48f95a10a83
     name: oof-cmso-topology
     urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-topology-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:32:45.281109784Z"
-    description: Chart for Change Management Service Orchestrator (CMSO) Service
-    digest: sha256:02bd9b9a6d3ac628bd9d59e285491f568845678f19643e47e08fefcdeaab3797
-    name: oof-cmso-topology
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-cmso-topology-7.0.1.tgz
+    - oof-cmso-topology-7.0.1.tgz
     version: 7.0.1
   oof-has:
   - apiVersion: v1
-    created: "2021-06-15T08:52:54.175078335Z"
+    created: "2021-06-15T11:21:22.049292266Z"
     description: ONAP Homing and Allocation Service
-    digest: sha256:ec031d142fedeb9162875290d305d9917a11a9d1f4d7507ab938d5bf3420c448
+    digest: d81df3161f8d575f06cd7bd861c3226ce37b522c5c0aa4d6046aa6c9f1f48a19
     name: oof-has
     urls:
-    - https://amcop.github.io/guilin/charts/oof-has-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:34:58.610371973Z"
-    description: ONAP Homing and Allocation Service
-    digest: sha256:e56af8ed8037ccad6e4eac8ada3447049502b709160f3d2683fb7cc983701551
-    name: oof-has
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-has-7.0.1.tgz
+    - oof-has-7.0.1.tgz
     version: 7.0.1
   oof-has-api:
   - apiVersion: v1
-    created: "2021-06-15T08:51:51.75709816Z"
+    created: "2021-06-15T11:21:22.055383873Z"
     description: ONAP Homing and Allocation Servicei - API
-    digest: sha256:a3cd7a037d672b47f57e01b448be41708d96281dc95f9eb5eeec8fb48320ada5
+    digest: 7d929d5ddb0cdc7cc20d7eec5d7fcb9b6208774d20984b35ee087789543e4264
     name: oof-has-api
     urls:
-    - https://amcop.github.io/guilin/charts/oof-has-api-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:33:49.353374449Z"
-    description: ONAP Homing and Allocation Servicei - API
-    digest: sha256:4a7a3791d404227ffcd1f411e9e00606da91980f797fd90585bae659f9ef1aaa
-    name: oof-has-api
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-has-api-7.0.1.tgz
+    - oof-has-api-7.0.1.tgz
     version: 7.0.1
   oof-has-controller:
   - apiVersion: v1
-    created: "2021-06-15T08:52:02.275914641Z"
+    created: "2021-06-15T11:21:22.058460777Z"
     description: ONAP Homing and Allocation Sservice - Controller
-    digest: sha256:a6db8fcbc62ba214692d7e4ddd35319fa1d43de9e8055ed216add2ac667ea1dc
+    digest: 3ee069ce573333440a2d77af8fe0d204d39c69ad9436dbb2791f5af96e8b5227
     name: oof-has-controller
     urls:
-    - https://amcop.github.io/guilin/charts/oof-has-controller-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:33:59.706468666Z"
-    description: ONAP Homing and Allocation Sservice - Controller
-    digest: sha256:6b779a87174f152df092ec0119e9a5e518a4b3d7c4fa5531b5912917314ce27e
-    name: oof-has-controller
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-has-controller-7.0.1.tgz
+    - oof-has-controller-7.0.1.tgz
     version: 7.0.1
   oof-has-data:
   - apiVersion: v1
-    created: "2021-06-15T08:52:12.762758549Z"
+    created: "2021-06-15T11:21:22.061507666Z"
     description: ONAP Homing and Allocation Service - Data Component
-    digest: sha256:aa68fbc76df6fc5b3d5d31101c990d66943ccfbb7c6e8c5a18533f4dfc7e245c
+    digest: d55c630ed3a14a7e06c785840aef49f15c400d09bc7811dab416ebf1b152cf8a
     name: oof-has-data
     urls:
-    - https://amcop.github.io/guilin/charts/oof-has-data-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:34:09.84529616Z"
-    description: ONAP Homing and Allocation Service - Data Component
-    digest: sha256:9f18c3df169f2739bbcdd3fcbf304aa71aa82007f722d2aafde7117de4a34403
-    name: oof-has-data
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-has-data-7.0.1.tgz
+    - oof-has-data-7.0.1.tgz
     version: 7.0.1
   oof-has-reservation:
   - apiVersion: v1
-    created: "2021-06-15T08:52:22.628513496Z"
+    created: "2021-06-15T11:21:22.064689054Z"
     description: ONAP Homing and Allocation Sevice - Reservation Component
-    digest: sha256:952a3f56db33e5b097e938f049bc705b186088601666afbd61a33e6a1a20ba0f
+    digest: 0b40303d8efd90b4835c70c5f86e1daa6bc6a2d68d24dcd47fdfae843f1d6f29
     name: oof-has-reservation
     urls:
-    - https://amcop.github.io/guilin/charts/oof-has-reservation-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:34:20.063062615Z"
-    description: ONAP Homing and Allocation Sevice - Reservation Component
-    digest: sha256:a49e71ae0f1a81691dbcceda03763aff5811c337f480b753d45f18e3c9cf2501
-    name: oof-has-reservation
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-has-reservation-7.0.1.tgz
+    - oof-has-reservation-7.0.1.tgz
     version: 7.0.1
   oof-has-solver:
   - apiVersion: v1
-    created: "2021-06-15T08:52:32.765306597Z"
+    created: "2021-06-15T11:21:22.067772112Z"
     description: ONAP Homing and Allocation Service - Solver Component
-    digest: sha256:bd6c5cb24c7f4c82856544d280a139d18e83164a9fb39b9ab517a9e2be5a2cc3
+    digest: 31c6424b165ff14816c8659bd9f3f2ba9ff24d04ec630f3bfee8952a5fe95974
     name: oof-has-solver
     urls:
-    - https://amcop.github.io/guilin/charts/oof-has-solver-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:34:30.624413249Z"
-    description: ONAP Homing and Allocation Service - Solver Component
-    digest: sha256:fa67bf4c5db98272d80a3e1e061e38a38ad1a7e44a0a9afc42ccdb0c2362ec69
-    name: oof-has-solver
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-has-solver-7.0.1.tgz
+    - oof-has-solver-7.0.1.tgz
     version: 7.0.1
   oof-templates:
   - apiVersion: v1
-    created: "2021-06-15T08:53:04.385534346Z"
+    created: "2021-06-15T11:21:22.069344717Z"
     description: ONAP OOF helm templates
-    digest: sha256:88cd3ae9ada3311213f8cec6e23cd443bc0b8d87b5d27fa4d15f47070a539625
+    digest: 74d7cb3c806a4a32ab318d85ca0cdb7170b4cb3e377b18b54da5142602825e04
     name: oof-templates
     urls:
-    - https://amcop.github.io/guilin/charts/oof-templates-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:35:09.192323328Z"
-    description: ONAP OOF helm templates
-    digest: sha256:94d63d5809cd61af5c6fb7164e70d023d1c7a7ec628f6ef07320194a13d14d82
-    name: oof-templates
-    urls:
-    - https://amcop.github.io/guilin/charts/oof-templates-7.0.1.tgz
+    - oof-templates-7.0.1.tgz
     version: 7.0.1
   oom-cert-service:
   - apiVersion: v1
-    created: "2021-06-15T10:36:01.647662243Z"
+    created: "2021-06-15T11:21:22.071762089Z"
     description: ONAP Cert Service
-    digest: sha256:68cfb7384e3d9eeb49a68468b06835003ad9e476271ff08bb1573c7d284dfe57
+    digest: 58c618f5039713b9b831de46d206987e2e00976440e6ac28a6c312549e5fc56f
     name: oom-cert-service
     urls:
-    - https://amcop.github.io/guilin/charts/oom-cert-service-7.0.1.tgz
+    - oom-cert-service-7.0.1.tgz
     version: 7.0.1
   platform:
   - apiVersion: v1
-    created: "2021-06-15T10:36:10.238425787Z"
+    created: "2021-06-15T11:21:22.0750658Z"
     description: ONAP platform components
-    digest: sha256:660e4a5ac7790aa4f1c59b2b1402ff96eb1fe88547b1238e01d6ca59b6d9685f
+    digest: 897ae26e8e3b87d56e0607269dcfbff46891cd390d2593f0306e66c2c1062660
     name: platform
     urls:
-    - https://amcop.github.io/guilin/charts/platform-7.0.1.tgz
+    - platform-7.0.1.tgz
     version: 7.0.1
   policy:
   - apiVersion: v1
-    created: "2021-06-15T10:38:04.76086438Z"
+    created: "2021-06-15T11:21:22.114350395Z"
     description: ONAP Policy
-    digest: sha256:63b5a636ef686f0c3b00d874e512fb5052903c2036d0c189a24c4f0f994375cc
+    digest: b2617dc5000c9c1d11da8815ff1eea8f3f525093f1e99c173a55181a4fb8fc1f
     name: policy
     urls:
-    - https://amcop.github.io/guilin/charts/policy-7.0.1.tgz
+    - policy-7.0.1.tgz
     version: 7.0.1
   policy-apex-pdp:
   - apiVersion: v1
-    created: "2021-06-15T10:36:26.122112152Z"
+    created: "2021-06-15T11:21:22.119849023Z"
     description: ONAP Policy APEX PDP
-    digest: sha256:c50f3ca10a982d61ea57a46878701aea55095462dd4cb903b4df5fc87298c8f7
+    digest: 9aa33106b5aca38b66286918993989230620bfca2e75cb408ffdc8d250ff7b56
     name: policy-apex-pdp
     urls:
-    - https://amcop.github.io/guilin/charts/policy-apex-pdp-7.0.1.tgz
+    - policy-apex-pdp-7.0.1.tgz
     version: 7.0.1
   policy-api:
   - apiVersion: v1
-    created: "2021-06-15T10:36:41.112039935Z"
+    created: "2021-06-15T11:21:22.12530635Z"
     description: ONAP Policy Design API
-    digest: sha256:ca77c9e0c69dc6bd2690ba0c98a9282e11d18048e557d2a3efe4ad0aa1cfd22a
+    digest: eb8d07c156b15774a316b638a9816c7c60b347e31500754912ec9394a5445323
     name: policy-api
     urls:
-    - https://amcop.github.io/guilin/charts/policy-api-7.0.1.tgz
+    - policy-api-7.0.1.tgz
     version: 7.0.1
   policy-distribution:
   - apiVersion: v1
-    created: "2021-06-15T10:36:57.243075596Z"
+    created: "2021-06-15T11:21:22.130479492Z"
     description: ONAP Policy Distribution
-    digest: sha256:7a629123af87659bfe88a3ee9d99f074f6100b06886f70c97b9c01bf84ba290c
+    digest: ae3555be2e1f5756ba2fb620d4b63f328f40ca4662004b1a13a57083d3128460
     name: policy-distribution
     urls:
-    - https://amcop.github.io/guilin/charts/policy-distribution-7.0.1.tgz
+    - policy-distribution-7.0.1.tgz
     version: 7.0.1
   policy-drools-pdp:
   - apiVersion: v1
-    created: "2021-06-15T10:37:11.144413886Z"
+    created: "2021-06-15T11:21:22.140198903Z"
     description: ONAP Drools Policy Engine (PDP-D)
-    digest: sha256:fdad1f8932678c5033931d3851c3eee04e39c44bdbf607d4af0cbb6f320273c8
+    digest: 5d6b55e4058c79aaeaff03f79146d7c18fb9e12ec0d09c823faee80dc8e93ab9
     name: policy-drools-pdp
     urls:
-    - https://amcop.github.io/guilin/charts/policy-drools-pdp-7.0.1.tgz
+    - policy-drools-pdp-7.0.1.tgz
     version: 7.0.1
   policy-nexus:
   - apiVersion: v1
-    created: "2021-06-15T10:37:21.522693779Z"
+    created: "2021-06-15T11:21:22.143145256Z"
     description: ONAP Policy Nexus
-    digest: sha256:8b561b7206ad627ae93812de66f6810c8ebec941d71ce9b69744869ffcce56ef
+    digest: d0437fabb16d4a90f61c399cf82287734367a62ccd9c9ff00fd5020f2fad8ed6
     name: policy-nexus
     urls:
-    - https://amcop.github.io/guilin/charts/policy-nexus-7.0.1.tgz
+    - policy-nexus-7.0.1.tgz
     version: 7.0.1
   policy-pap:
   - apiVersion: v1
-    created: "2021-06-15T10:37:36.2405739Z"
+    created: "2021-06-15T11:21:22.150325902Z"
     description: ONAP Policy Administration (PAP)
-    digest: sha256:e068a371c5cd666695bff9f92ce4ec7d594228d6449c201990d7f3a25fc78d34
+    digest: ccf8be5e707d4c4080724858941c0ee1318a4959cbdf59e2e90c352d69067560
     name: policy-pap
     urls:
-    - https://amcop.github.io/guilin/charts/policy-pap-7.0.1.tgz
+    - policy-pap-7.0.1.tgz
     version: 7.0.1
   policy-xacml-pdp:
   - apiVersion: v1
-    created: "2021-06-15T10:37:51.054221824Z"
+    created: "2021-06-15T11:21:22.157348977Z"
     description: ONAP Policy XACML PDP (PDP-X)
-    digest: sha256:c59822449f2231a12ed816df0b8e525ebec7008252e57b5e35e6ffbe39a8b114
+    digest: 1499300cf8c7feba915d09b3d9681b889fa66eeef200c35940311910adcbd9d7
     name: policy-xacml-pdp
     urls:
-    - https://amcop.github.io/guilin/charts/policy-xacml-pdp-7.0.1.tgz
+    - policy-xacml-pdp-7.0.1.tgz
     version: 7.0.1
   pomba:
   - apiVersion: v1
-    created: "2021-06-15T10:38:14.383899155Z"
+    created: "2021-06-15T11:21:22.168959163Z"
     description: ONAP Post Orchestration Model Based Audit
-    digest: sha256:60688975c4c50508b11613be0b8905ebf2b77696e373ae9203168624d740cc3d
+    digest: 1293abc199e883a755fee89c34faf32e01051a223628092d133b3dcbf5c618a3
     name: pomba
     urls:
-    - https://amcop.github.io/guilin/charts/pomba-7.0.1.tgz
+    - pomba-7.0.1.tgz
     version: 7.0.1
   portal:
   - apiVersion: v1
-    created: "2021-06-15T10:39:26.83642844Z"
+    created: "2021-06-15T11:21:22.197333812Z"
     description: ONAP Web Portal
-    digest: sha256:4db4c251e45f0d017d31d960758239ae43153d8f77235591090acec2e688de23
+    digest: e3a2d9e8519eeb5076fbed6ad85eb2d0576560724b141bd4e580c7aecf61ad3d
     name: portal
     urls:
-    - https://amcop.github.io/guilin/charts/portal-7.0.1.tgz
+    - portal-7.0.1.tgz
     version: 7.0.1
   portal-app:
   - apiVersion: v1
-    created: "2021-06-15T10:38:29.868188887Z"
+    created: "2021-06-15T11:21:22.205447528Z"
     description: ONAP Portal application
-    digest: sha256:8f6af8a21583374c07b288856c6f18b31b9ca573f239ff436bb2462b0db6f1ad
+    digest: 089d8243383fa891c8a45e5409be0ede74f37ba135d6fcc03038a270e5da3768
     name: portal-app
     urls:
-    - https://amcop.github.io/guilin/charts/portal-app-7.0.1.tgz
+    - portal-app-7.0.1.tgz
     version: 7.0.1
   portal-cassandra:
   - apiVersion: v1
-    created: "2021-06-15T10:38:40.177527471Z"
+    created: "2021-06-15T11:21:22.207109146Z"
     description: Portal cassandra
-    digest: sha256:38250a42b768360f3025afe760fdd0525aff69f526e6d187539891530c590296
+    digest: e6888af3a3df77bb262cd552380984e2d442d0dfbf8ca82044a34a7af3939140
     name: portal-cassandra
     urls:
-    - https://amcop.github.io/guilin/charts/portal-cassandra-7.0.1.tgz
+    - portal-cassandra-7.0.1.tgz
     version: 7.0.1
   portal-mariadb:
   - apiVersion: v1
-    created: "2021-06-15T10:38:51.090832481Z"
+    created: "2021-06-15T11:21:22.21002335Z"
     description: MariaDB Service
-    digest: sha256:c64fbd40fd44ad62312b4617a8cbaeb60f18ff62c15d9739ef73fac9407908ff
+    digest: 88a291218094f840e21b1b438a3beecaabb9d1622e9c8a0085bc753d9f8963b1
     name: portal-mariadb
     urls:
-    - https://amcop.github.io/guilin/charts/portal-mariadb-7.0.1.tgz
+    - portal-mariadb-7.0.1.tgz
     version: 7.0.1
   portal-sdk:
   - apiVersion: v1
-    created: "2021-06-15T10:39:05.837299518Z"
+    created: "2021-06-15T11:21:22.214644813Z"
     description: Portal software development kit
-    digest: sha256:ca51abbee604565200c5232e666af07702621aaa07acad7923ca25cd14b4194c
+    digest: 8fd9dff1812350a1ca2a6eb810e1abc5e0cf0885685ebfda1134c76a63e9f33c
     name: portal-sdk
     urls:
-    - https://amcop.github.io/guilin/charts/portal-sdk-7.0.1.tgz
+    - portal-sdk-7.0.1.tgz
     version: 7.0.1
   portal-widget:
   - apiVersion: v1
-    created: "2021-06-15T10:39:16.131089157Z"
+    created: "2021-06-15T11:21:22.216223019Z"
     description: Portal widgets micro service application
-    digest: sha256:885a9b05ef1fcdd523ef8f5c3ced4843da8c4f94b2d9bbce1c71aa1bd8fdb3ec
+    digest: 996f3f1f71e897e498ef4d649cb59cd97fe607944db96627e52a0d059a948559
     name: portal-widget
     urls:
-    - https://amcop.github.io/guilin/charts/portal-widget-7.0.1.tgz
+    - portal-widget-7.0.1.tgz
     version: 7.0.1
   postgres:
   - apiVersion: v1
-    created: "2021-06-15T08:26:56.340726854Z"
+    created: "2021-06-15T11:21:22.219886381Z"
     description: ONAP Postgres Server
-    digest: sha256:23a32e79e5c9fe493f17a40a263018f5a9630530d6714f08d0723ab5472242d6
+    digest: 8c6677d3d7339d9a4af2cabe1aaeb5bcd9ee7bb86caac758dc20eb253e16ec47
     name: postgres
     urls:
-    - https://amcop.github.io/guilin/charts/postgres-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:30:20.488863137Z"
-    description: ONAP Postgres Server
-    digest: sha256:89af8e3d9921704765d74e3a287238f6ca0d0453bdc195affda0a89eeacd17a4
-    name: postgres
-    urls:
-    - https://amcop.github.io/guilin/charts/postgres-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:33:05.026218701Z"
-    description: ONAP Postgres Server
-    digest: sha256:3fd1eb70c49d1cecb19f09c3dba74364c56dedf8392364e2f99cd44e6c861133
-    name: postgres
-    urls:
-    - https://amcop.github.io/guilin/charts/postgres-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:37:44.51783791Z"
-    description: ONAP Postgres Server
-    digest: sha256:6d01708e8b9ff2cd3b4fd5bd567d934bfb6529551a14b59b1030117ff3bec253
-    name: postgres
-    urls:
-    - https://amcop.github.io/guilin/charts/postgres-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:19:32.202855384Z"
-    description: ONAP Postgres Server
-    digest: sha256:e22df55a07276c975520d32e9650d937caec063d5b550ed8a8eec188bcc9cdb5
-    name: postgres
-    urls:
-    - https://amcop.github.io/guilin/charts/postgres-7.0.1.tgz
+    - postgres-7.0.1.tgz
     version: 7.0.1
   readinessCheck:
   - apiVersion: v1
-    created: "2021-06-15T08:23:32.689220612Z"
+    created: "2021-06-15T11:21:22.224334069Z"
     description: Template used to wait for other deployment/sts/jobs in onap
-    digest: 27a6d2f7788ba97e5754b4d2684316279b40e775733a5a97ef5b7409d450af14
+    digest: e36baa561c98d1605229b88ed3e9f92e62de8104917bf6e922506bb98f9494d1
     name: readinessCheck
     urls:
-    - https://amcop.github.io/guilin/readinessCheck-8.0.0.tgz
+    - readinessCheck-8.0.0.tgz
     version: 8.0.0
   - apiVersion: v1
-    created: "2021-06-15T08:24:12.382829889Z"
+    created: "2021-06-15T11:21:22.221967271Z"
     description: Template used to wait for other deployment/sts/jobs in onap
-    digest: sha256:9b91d68014b8f28582e611adbdca7f13b625c7ba27bb0316141e5e7cfe3a6a2f
+    digest: b01490e5f8e3e5071939625ba9d4f40b266ef6d7d9e8787385864b59f0b12356
     name: readinessCheck
     urls:
-    - https://amcop.github.io/guilin/charts/readinessCheck-8.0.0.tgz
-    version: 8.0.0
-  - apiVersion: v1
-    created: "2021-06-15T08:27:03.517913775Z"
-    description: Template used to wait for other deployment/sts/jobs in onap
-    digest: sha256:603d54245237879f031cdb08068f2597d6325803836875a52b8dad5f619449d4
-    name: readinessCheck
-    urls:
-    - https://amcop.github.io/guilin/charts/readinessCheck-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:30:27.121077521Z"
-    description: Template used to wait for other deployment/sts/jobs in onap
-    digest: sha256:d630ae6f7b2533c77498c1bd902080459348005685bd56b95484f6ce0d871d37
-    name: readinessCheck
-    urls:
-    - https://amcop.github.io/guilin/charts/readinessCheck-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:33:11.677983877Z"
-    description: Template used to wait for other deployment/sts/jobs in onap
-    digest: sha256:73c45e4c4e6c7430c565fa6c1e5969176c39098afa5a64b7b2be97a8e9c3920e
-    name: readinessCheck
-    urls:
-    - https://amcop.github.io/guilin/charts/readinessCheck-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:37:51.626485738Z"
-    description: Template used to wait for other deployment/sts/jobs in onap
-    digest: sha256:a1c8b1d7fee266096c1b7710175ee7f79f2060dd4b331a57ed47a1267ddad1e7
-    name: readinessCheck
-    urls:
-    - https://amcop.github.io/guilin/charts/readinessCheck-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:19:39.695492866Z"
-    description: Template used to wait for other deployment/sts/jobs in onap
-    digest: sha256:8b0baab5c27c8b723405659d544666aba9a8b24f63a43c597b934afb5aadec82
-    name: readinessCheck
-    urls:
-    - https://amcop.github.io/guilin/charts/readinessCheck-7.0.1.tgz
+    - readinessCheck-7.0.1.tgz
     version: 7.0.1
   repositoryGenerator:
   - apiVersion: v1
-    created: "2021-06-15T08:23:32.689841227Z"
+    created: "2021-06-15T11:21:22.224921094Z"
     description: Template used to generate the right repository link
-    digest: e81219d8ce4d50ee59e13ff4f5c08e8eb53369405ddc75ea7d25b9f1ecc964a1
+    digest: f9f7995d3a01ca557d72c5e128244f392ffb27c2714e23ccb7b5383e77dabc67
     name: repositoryGenerator
     urls:
-    - https://amcop.github.io/guilin/repositoryGenerator-8.0.0.tgz
-    version: 8.0.0
-  - apiVersion: v1
-    created: "2021-06-15T08:24:05.634218451Z"
-    description: Template used to generate the right repository link
-    digest: sha256:58d3a0522ed61e5ffa9eeab5e7e1eed81e07f2ee6cc99eef22fd3b65303a43b4
-    name: repositoryGenerator
-    urls:
-    - https://amcop.github.io/guilin/charts/repositoryGenerator-8.0.0.tgz
+    - repositoryGenerator-8.0.0.tgz
     version: 8.0.0
   robot:
   - apiVersion: v1
-    created: "2021-06-15T08:38:15.507333766Z"
+    created: "2021-06-15T11:21:22.228746188Z"
     description: A helm Chart for kubernetes-ONAP Robot
-    digest: sha256:9bddfbe1901047b49179bbdc5ec87b0341ca6e18e96f86289819769b8e05e5c9
+    digest: b47a3268cec1ecb360ca0ef1826b55b59ba32e1cd95be35e38332945e73729c5
     name: robot
     urls:
-    - https://amcop.github.io/guilin/charts/robot-7.0.0.tgz
-    version: 7.0.0
-  - apiVersion: v1
-    created: "2021-06-15T10:20:05.591978251Z"
-    description: A helm Chart for kubernetes-ONAP Robot
-    digest: sha256:919fe19d86ce52bdc5e96b1157b2fad300913d802bd515c65cb88017294ed906
-    name: robot
-    urls:
-    - https://amcop.github.io/guilin/charts/robot-7.0.0.tgz
+    - robot-7.0.0.tgz
     version: 7.0.0
   sdc:
   - apiVersion: v1
-    created: "2021-06-15T10:40:42.193984033Z"
+    created: "2021-06-15T11:21:22.256959637Z"
     description: Service Design and Creation Umbrella Helm charts
-    digest: sha256:26d5d6771c6d3be976c39edcc5ec4eef30f47a7a9eb6acf1b3bb9f11ad64c9c5
+    digest: 14b5402aa5a5f55ab70c690f24b14b3784563dd201d3cd593e7da2e74df51e79
     name: sdc
     urls:
-    - https://amcop.github.io/guilin/charts/sdc-7.0.1.tgz
+    - sdc-7.0.1.tgz
     version: 7.0.1
   sdc-be:
   - apiVersion: v1
-    created: "2021-06-15T10:39:38.596447184Z"
+    created: "2021-06-15T11:21:22.262829336Z"
     description: ONAP Service Design and Creation Backend API
-    digest: sha256:0d8de6d8cb4ec282f03a1520725ee4571fd914e65185eac0e8c1b32e4b040400
+    digest: a29f181910889177d8d911d3cfe6375bc82c075e49ebb05877363b3022021f7e
     name: sdc-be
     urls:
-    - https://amcop.github.io/guilin/charts/sdc-be-7.0.1.tgz
+    - sdc-be-7.0.1.tgz
     version: 7.0.1
   sdc-cs:
   - apiVersion: v1
-    created: "2021-06-15T10:39:49.101161828Z"
+    created: "2021-06-15T11:21:22.265382253Z"
     description: ONAP Service Design and Creation Cassandra
-    digest: sha256:a45516ad2c75171cf0672e70772d7cbe52f85570790e98baba74db76b4d77645
+    digest: f60e1e6012de049967bb130c8d7be0bcd963c68cb592baf6b00b432f5947cbf8
     name: sdc-cs
     urls:
-    - https://amcop.github.io/guilin/charts/sdc-cs-7.0.1.tgz
+    - sdc-cs-7.0.1.tgz
     version: 7.0.1
   sdc-fe:
   - apiVersion: v1
-    created: "2021-06-15T10:40:00.241781103Z"
+    created: "2021-06-15T11:21:22.270489666Z"
     description: ONAP Service Design and Creation Front End
-    digest: sha256:49b4d323513233e0e7fd04fcd864893d667fa53d870821f38594d82ca5e806ed
+    digest: 875c54e5f2324849e32ef5fb97b9a8477874794d33cf3b14af591ea1e7884dac
     name: sdc-fe
     urls:
-    - https://amcop.github.io/guilin/charts/sdc-fe-7.0.1.tgz
+    - sdc-fe-7.0.1.tgz
     version: 7.0.1
   sdc-onboarding-be:
   - apiVersion: v1
-    created: "2021-06-15T10:40:11.382221691Z"
+    created: "2021-06-15T11:21:22.27543129Z"
     description: ONAP Service Design and Creation Onboarding API
-    digest: sha256:87c2d9be67c6d558b8655edc45f8680edc444d2ab13118da63ae895726a127ae
+    digest: 0e430ae8aaf028f575204078b46bf7db2401e7372fb52b0b5a60610ebc9fdc7a
     name: sdc-onboarding-be
     urls:
-    - https://amcop.github.io/guilin/charts/sdc-onboarding-be-7.0.1.tgz
+    - sdc-onboarding-be-7.0.1.tgz
     version: 7.0.1
   sdc-wfd-be:
   - apiVersion: v1
-    created: "2021-06-15T10:40:22.371778216Z"
+    created: "2021-06-15T11:21:22.279886471Z"
     description: ONAP Service Design and Creation Workflow Designer backend
-    digest: sha256:cf1b2c550bd9b9eaaeb2aa3bedfef0b01be40ddbd4add88b4f6133f9677d43ae
+    digest: 9098f6bfc9976c24ce7ec69701a3cda066486730e4e701f2f711278379a85d29
     name: sdc-wfd-be
     urls:
-    - https://amcop.github.io/guilin/charts/sdc-wfd-be-7.0.1.tgz
+    - sdc-wfd-be-7.0.1.tgz
     version: 7.0.1
   sdc-wfd-fe:
   - apiVersion: v1
-    created: "2021-06-15T10:40:33.775275983Z"
+    created: "2021-06-15T11:21:22.286370605Z"
     description: ONAP Service Design and Creation Workflow Designer frontend
-    digest: sha256:55bbe631e2236c67447afbdc22bc1943c7feedabdfb68bf3c41845ee85b33def
+    digest: 8430ddd7b678d775dbd7ba9be5faa698989c27a5ef0b12452135c1919dd07821
     name: sdc-wfd-fe
     urls:
-    - https://amcop.github.io/guilin/charts/sdc-wfd-fe-7.0.1.tgz
+    - sdc-wfd-fe-7.0.1.tgz
     version: 7.0.1
   sdnc:
   - apiVersion: v1
-    created: "2021-06-15T10:42:10.482825686Z"
+    created: "2021-06-15T11:21:22.344712515Z"
     description: SDN Controller
-    digest: sha256:5ca35a73395a8a23cb993be95cfc764b2be83397a6d50c8dce02e79a24fbe371
+    digest: 59554f9a657b029629c65add4554389e336d4afb505b8af39bb39ae2dd1fb3f3
     name: sdnc
     urls:
-    - https://amcop.github.io/guilin/charts/sdnc-7.0.1.tgz
+    - sdnc-7.0.1.tgz
     version: 7.0.1
   sdnc-ansible-server:
   - apiVersion: v1
-    created: "2021-06-15T10:41:04.371366238Z"
+    created: "2021-06-15T11:21:22.346815401Z"
     description: SDN-C Ansible Server
-    digest: sha256:da9a388bf130b4a658ab090059a5a0cca90560431037fd7e53055fa53eb2fe58
+    digest: 750766a7a134edaeaffa8a78c475e4ce9c7ae017dca892990e93f64fa1c51b38
     name: sdnc-ansible-server
     urls:
-    - https://amcop.github.io/guilin/charts/sdnc-ansible-server-7.0.1.tgz
+    - sdnc-ansible-server-7.0.1.tgz
     version: 7.0.1
   sdnc-prom:
   - apiVersion: v1
-    created: "2021-06-15T10:41:14.417860909Z"
+    created: "2021-06-15T11:21:22.349283001Z"
     description: ONAP SDNC Policy Driven Ownership Management
-    digest: sha256:0dee4086bde58f38877bdc5b29656caff4b9b80a8ae7d69d793f1c8658a5b673
+    digest: 41c6f236c2f86d164e231974a5f5e35dffbff8bb4d6767893d3bd091ad295d71
     name: sdnc-prom
     urls:
-    - https://amcop.github.io/guilin/charts/sdnc-prom-7.0.1.tgz
+    - sdnc-prom-7.0.1.tgz
     version: 7.0.1
   sdnc-web:
   - apiVersion: v1
-    created: "2021-06-15T10:41:28.247354762Z"
+    created: "2021-06-15T11:21:22.354774642Z"
     description: SDN-C Web Server
-    digest: sha256:b2e77e692260740919236e16e2f38e01a3c7a6aec08d66e833e8cf5726ad8c85
+    digest: 2ea3aaeb62fa0e5269a6c1599c12b64ef3b0805b684a4962ea4563a1389a60a7
     name: sdnc-web
     urls:
-    - https://amcop.github.io/guilin/charts/sdnc-web-7.0.1.tgz
+    - sdnc-web-7.0.1.tgz
     version: 7.0.1
   serviceAccount:
   - apiVersion: v1
-    created: "2021-06-15T08:23:32.692307355Z"
+    created: "2021-06-15T11:21:22.358539166Z"
     description: Template used to create the right Service Accounts / Role / RoleBinding
     digest: 7144fdb35ef6714748a226efe3b48aed073a35808d57a682a226be6bf8b3acd1
     name: serviceAccount
     urls:
-    - https://amcop.github.io/guilin/serviceAccount-8.0.0.tgz
+    - serviceAccount-8.0.0.tgz
     version: 8.0.0
   - apiVersion: v1
-    created: "2021-06-15T08:27:11.401042664Z"
+    created: "2021-06-15T11:21:22.35655914Z"
     description: Template used to create the right Service Accounts / Role / RoleBinding
-    digest: sha256:2b45ca7b41a396bc8b7a27b37944d216c9f992bb53ec3d4c27d220a7f7ec7386
+    digest: d5898d395c143ed0543de3d92900d9d8ba3b963baf270e3b0c92d296fef7f13a
     name: serviceAccount
     urls:
-    - https://amcop.github.io/guilin/charts/serviceAccount-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:30:34.08414656Z"
-    description: Template used to create the right Service Accounts / Role / RoleBinding
-    digest: sha256:cb1fcb6ea642d58cfe6fb1ad7e7556c688b65d70132272907608a11fccd0ee09
-    name: serviceAccount
-    urls:
-    - https://amcop.github.io/guilin/charts/serviceAccount-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:33:18.518874882Z"
-    description: Template used to create the right Service Accounts / Role / RoleBinding
-    digest: sha256:ea5331bc2998518a2c2fc28f728614edc638bc27e9b96db3831580dbb2d8299b
-    name: serviceAccount
-    urls:
-    - https://amcop.github.io/guilin/charts/serviceAccount-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T08:37:58.648332887Z"
-    description: Template used to create the right Service Accounts / Role / RoleBinding
-    digest: sha256:71210ddcac5dc503149c32e5b13796228f8dcdfa814892d1a18fedf162c4d3a7
-    name: serviceAccount
-    urls:
-    - https://amcop.github.io/guilin/charts/serviceAccount-7.0.1.tgz
-    version: 7.0.1
-  - apiVersion: v1
-    created: "2021-06-15T10:19:47.237395023Z"
-    description: Template used to create the right Service Accounts / Role / RoleBinding
-    digest: sha256:08f153dc904486365812a6d0ec05292ec33a75fba4520e03b6caf58acb0a2649
-    name: serviceAccount
-    urls:
-    - https://amcop.github.io/guilin/charts/serviceAccount-7.0.1.tgz
+    - serviceAccount-7.0.1.tgz
     version: 7.0.1
   sniro-emulator:
   - apiVersion: v1
-    created: "2021-06-15T10:42:20.926978683Z"
+    created: "2021-06-15T11:21:22.360298628Z"
     description: ONAP Mock Sniro Emulator
-    digest: sha256:34c4ee176349c644a391723f5845b92ea7846eee44ca136752b8027e1eec5f1f
+    digest: e7f1e868a6b9d37f5cad1ec440d0de710dc1e82cefcbc90a9e6082f9c63097d8
     name: sniro-emulator
     urls:
-    - https://amcop.github.io/guilin/charts/sniro-emulator-7.0.1.tgz
+    - sniro-emulator-7.0.1.tgz
     version: 7.0.1
   so:
   - apiVersion: v1
-    created: "2021-06-15T10:46:43.429622344Z"
+    created: "2021-06-15T11:21:22.533562105Z"
     description: ONAP Service Orchestrator
-    digest: sha256:134c7cb4f142c81413512503c9358dc0452ca9683877640db4d143403854bcd6
+    digest: f727d28f2d124003b815f23d01495452dbee10351ff8d1ec8098aabfd1a402c4
     name: so
     urls:
-    - https://amcop.github.io/guilin/charts/so-7.0.1.tgz
+    - so-7.0.1.tgz
     version: 7.0.1
   so-appc-orchestrator:
   - apiVersion: v1
-    created: "2021-06-15T10:42:47.377365195Z"
+    created: "2021-06-15T11:21:22.539881633Z"
     description: A Helm chart for so appc orchestrator
-    digest: sha256:3a230a57606815409c28a837fd0f8b603bd36ed0f64357020dcc76dc33ed4711
+    digest: 69735c55a4115790807f1e7a35940a71b6e9dca24025b75923cd101ccd69e669
     name: so-appc-orchestrator
     urls:
-    - https://amcop.github.io/guilin/charts/so-appc-orchestrator-7.0.1.tgz
+    - so-appc-orchestrator-7.0.1.tgz
     version: 7.0.1
   so-bpmn-infra:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-15T10:43:03.444112215Z"
+    created: "2021-06-15T11:21:22.547621775Z"
     description: A Helm chart for SO Bpmn Infra
-    digest: sha256:0f23b1c0262add91a9b2025bc581cc6de76bc1f4d5b5d97d8bc2fc45c935b2d5
+    digest: 12b0d6c73f21966cb21baf2fe18c07b3a4dd716daca44d05e489a9df58f210e6
     name: so-bpmn-infra
     urls:
-    - https://amcop.github.io/guilin/charts/so-bpmn-infra-7.0.1.tgz
+    - so-bpmn-infra-7.0.1.tgz
     version: 7.0.1
   so-catalog-db-adapter:
   - apiVersion: v1
-    created: "2021-06-15T10:43:19.470575188Z"
+    created: "2021-06-15T11:21:22.555209497Z"
     description: A Helm chart for so-catalog-db-adapter
-    digest: sha256:d386ec95e726fef113f81776e6422a44907812cf1455f2071061069fb5c6f493
+    digest: 17b05984a1ad9a830ed9cba4a38d872f0aeacee1e1647df94ac7461068fa3eb5
     name: so-catalog-db-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-catalog-db-adapter-7.0.1.tgz
+    - so-catalog-db-adapter-7.0.1.tgz
     version: 7.0.1
   so-cnf-adapter:
   - apiVersion: v1
     appVersion: 1.7.1
-    created: "2021-06-15T10:43:33.27727206Z"
+    created: "2021-06-15T11:21:22.561179796Z"
     description: A Helm chart for Kubernetes
-    digest: sha256:baed78f293f8d3de024a8461fc1a6a0293ba8a16d72fa1975f3edad0c53c46f3
+    digest: 5cc7e8ac9ef3a4df36a6bdcb1fa83839860d3edab1a6405ae53140d78d250493
     name: so-cnf-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-cnf-adapter-7.0.1.tgz
+    - so-cnf-adapter-7.0.1.tgz
     version: 7.0.1
   so-etsi-nfvo-ns-lcm:
   - apiVersion: v1
-    created: "2021-06-15T10:43:46.348792518Z"
+    created: "2021-06-15T11:21:22.570788589Z"
     description: ONAP SO ETSI NFVO NS LCM
-    digest: sha256:66f616755d2c117946383bcf5c83b2fa0e20a7d1d99410be6e2e751d2bd25542
+    digest: d48073b679a079a728fcbbbf9ecc6dd47ea2ffa4340783cdda494fa73e884669
     name: so-etsi-nfvo-ns-lcm
     urls:
-    - https://amcop.github.io/guilin/charts/so-etsi-nfvo-ns-lcm-7.0.1.tgz
+    - so-etsi-nfvo-ns-lcm-7.0.1.tgz
     version: 7.0.1
   so-mariadb:
   - apiVersion: v1
-    created: "2021-06-15T10:44:01.612281008Z"
+    created: "2021-06-15T11:21:22.574149476Z"
     description: MariaDB Service
-    digest: sha256:ce239daf606c2f3e5d4b144792e30da1e5b57d4de766077a375defc87801573f
+    digest: 04d16bbe36174a4c5ff196eb575ad1577080f0d265e56cf7a0290df6d15bbaea
     name: so-mariadb
     urls:
-    - https://amcop.github.io/guilin/charts/so-mariadb-7.0.1.tgz
+    - so-mariadb-7.0.1.tgz
     version: 7.0.1
   so-monitoring:
   - apiVersion: v1
-    created: "2021-06-15T10:44:15.16129514Z"
+    created: "2021-06-15T11:21:22.579802929Z"
     description: A Helm chart for ONAP Service Orchestration Monitoring
-    digest: sha256:2ae8f241bc57b7473b23334fa376e56af01cf43c2d8b783a7f946ef5f10789ec
+    digest: eaddc5ad47ae5682b7c1592a181639ee0de0f8f93f8ceaa97aa368ce961b90dd
     name: so-monitoring
     urls:
-    - https://amcop.github.io/guilin/charts/so-monitoring-7.0.1.tgz
+    - so-monitoring-7.0.1.tgz
     version: 7.0.1
   so-nssmf-adapter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-15T10:44:32.778885495Z"
+    created: "2021-06-15T11:21:22.588546202Z"
     description: A Helm chart for Kubernetes
-    digest: sha256:6b96f3bc0639e10ca7895279eba76c6fe78a32ca07b4c81fe8481d6bed507c1b
+    digest: 735925bb9a93b0f9372d519e7bbbcf4755e360b3b1df11c6def718bfbf7c1ce2
     name: so-nssmf-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-nssmf-adapter-7.0.1.tgz
+    - so-nssmf-adapter-7.0.1.tgz
     version: 7.0.1
   so-oof-adapter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-15T10:44:46.371703663Z"
+    created: "2021-06-15T11:21:22.594373994Z"
     description: A Helm chart for Kubernetes
-    digest: sha256:186538c70a7622237b1b85395e9f61d9dda0fd4ed9bca073e7b5af0d365ee183
+    digest: 0c05e10c79dcd7ae4ce4cb3b664d9c36b359dc1b99b65a391da23ce0f3a3bed7
     name: so-oof-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-oof-adapter-7.0.1.tgz
+    - so-oof-adapter-7.0.1.tgz
     version: 7.0.1
   so-openstack-adapter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-15T10:45:02.522334961Z"
+    created: "2021-06-15T11:21:22.602678318Z"
     description: A Helm chart for Kubernetes
-    digest: sha256:8c4e0cf6af760645b76a794365db06a4d86a2c628f092e0533d9ff843d7c4914
+    digest: c101bae63572db0fcb2b0cad4f88b10d95b57afb7968a3c7613daaa29eb42ca4
     name: so-openstack-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-openstack-adapter-7.0.1.tgz
+    - so-openstack-adapter-7.0.1.tgz
     version: 7.0.1
   so-request-db-adapter:
   - apiVersion: v1
-    created: "2021-06-15T10:45:18.329886051Z"
+    created: "2021-06-15T11:21:22.609417026Z"
     description: A Helm chart for request-db-adapter
-    digest: sha256:66707c53f8dc128a1db0336e1b76b00558f309a95e1fd269c01fabc1b9420943
+    digest: 9b8d6d0e7ca03fea25519a798a6203369a72172b0448a545c2ae0c54083052d5
     name: so-request-db-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-request-db-adapter-7.0.1.tgz
+    - so-request-db-adapter-7.0.1.tgz
     version: 7.0.1
   so-sdc-controller:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-15T10:45:33.754774777Z"
+    created: "2021-06-15T11:21:22.621415743Z"
     description: A Helm chart for Kubernetes
-    digest: sha256:188a93f2824c835651aa7bdfecb7074ca95a76e4c738c9726d147aa4cee4ec61
+    digest: 95aa93c3e8ea83b03ce1068b4b7b64353e7c817a34a456cadc94ee12f1232687
     name: so-sdc-controller
     urls:
-    - https://amcop.github.io/guilin/charts/so-sdc-controller-7.0.1.tgz
+    - so-sdc-controller-7.0.1.tgz
     version: 7.0.1
   so-sdnc-adapter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-15T10:45:45.538834648Z"
+    created: "2021-06-15T11:21:22.63118177Z"
     description: A Helm chart for Kubernetes
-    digest: sha256:4514a1f20ac4768bd12b31c69cb843d1e0154bf10192cd01415874ab7b6c0de2
+    digest: 79035925c7f59ec97e7237a28b98ab437a0551c6efb4e02811e99202368dd670
     name: so-sdnc-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-sdnc-adapter-7.0.1.tgz
+    - so-sdnc-adapter-7.0.1.tgz
     version: 7.0.1
   so-ve-vnfm-adapter:
   - apiVersion: v1
-    created: "2021-06-15T10:45:59.116305284Z"
+    created: "2021-06-15T11:21:22.637713869Z"
     description: ONAP SO VE VNFM Adapter (SOL002)
-    digest: sha256:0ec02fbf2797b3b8d5e5e7694b5149f7b1bdf48af46f634e00bd6d2d96870a23
+    digest: f1872a32545980f4035c7281af316b58be620d6b2d28d30261ec05c5c0900f1d
     name: so-ve-vnfm-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-ve-vnfm-adapter-7.0.1.tgz
+    - so-ve-vnfm-adapter-7.0.1.tgz
     version: 7.0.1
   so-vfc-adapter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-15T10:46:13.452941078Z"
+    created: "2021-06-15T11:21:22.645014967Z"
     description: A Helm chart for Kubernetes
-    digest: sha256:e0c1964a94318f81c653479ec9522503578cfcfd7e1c73cfcbae76085b35d3a4
+    digest: b8b19aeec2b100a2324d25375dd5c2342c83d288ffed167d4b27237856ae76b8
     name: so-vfc-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-vfc-adapter-7.0.1.tgz
+    - so-vfc-adapter-7.0.1.tgz
     version: 7.0.1
   so-vnfm-adapter:
   - apiVersion: v1
-    created: "2021-06-15T10:46:24.586316528Z"
+    created: "2021-06-15T11:21:22.65521903Z"
     description: ONAP SO VNFM Adapter
-    digest: sha256:3ea60045980401c4bc446d691846e43bf6ca5a0d0dfbdde8adf6492a19ddced9
+    digest: dfde9cfda46a98596b135f3836d5f6271554c636853a4175c73a5fd481d836e4
     name: so-vnfm-adapter
     urls:
-    - https://amcop.github.io/guilin/charts/so-vnfm-adapter-7.0.1.tgz
+    - so-vnfm-adapter-7.0.1.tgz
     version: 7.0.1
   soHelpers:
   - apiVersion: v1
-    created: "2021-06-15T10:42:35.149722406Z"
+    created: "2021-06-15T11:21:22.661768952Z"
     description: A Helm chart for SO helpers
-    digest: sha256:94c96bd24cc2b312ddf8209ada0affb1a65af5feffac23eca903f1cabdd5415b
+    digest: decec2cc833aa3e4c453571fdb821b6fadfd6eda7ab28f57cd76c18dbaf7f6db
     name: soHelpers
     urls:
-    - https://amcop.github.io/guilin/charts/soHelpers-7.0.1.tgz
+    - soHelpers-7.0.1.tgz
     version: 7.0.1
   ueb-listener:
   - apiVersion: v1
-    created: "2021-06-15T10:41:39.58512347Z"
+    created: "2021-06-15T11:21:22.664156943Z"
     description: SDNC UEB Listener
-    digest: sha256:648255b3b26916928be6c224e280b15818ea3f15b5d803bf614aa5b207c76b8a
+    digest: 76aef93a89e4fc3fc941ce554c8ce17b1ea6d258d9fd0bab0be8c2c1c770b970
     name: ueb-listener
     urls:
-    - https://amcop.github.io/guilin/charts/ueb-listener-7.0.1.tgz
+    - ueb-listener-7.0.1.tgz
     version: 7.0.1
   uui:
   - apiVersion: v1
-    created: "2021-06-15T10:46:54.545825756Z"
+    created: "2021-06-15T11:21:22.666815051Z"
     description: ONAP uui
-    digest: sha256:13c138c8d9cf9616e25da42a5c133165f7bbef375e7eac9acb9ffc239eafd7e1
+    digest: 474f2a4ba3a15348a8bb3d0c097c89b19894d53b79dfd6719e97237c886984eb
     name: uui
     urls:
-    - https://amcop.github.io/guilin/charts/uui-7.0.1.tgz
+    - uui-7.0.1.tgz
     version: 7.0.1
   vfc:
   - apiVersion: v1
-    created: "2021-06-15T10:47:08.916568343Z"
+    created: "2021-06-15T11:21:22.675908104Z"
     description: ONAP Virtual Function Controller (VF-C)
-    digest: sha256:5f93338c6a0e7ed69e8be4c26bf265b38b81e9190bef09e579e1daf8b35a42d2
+    digest: a873b5e53c7dc6c300c86c8bf28d0c564f2128209023d44f086145d7ad46addb
     name: vfc
     urls:
-    - https://amcop.github.io/guilin/charts/vfc-7.0.1.tgz
+    - vfc-7.0.1.tgz
     version: 7.0.1
   vid:
   - apiVersion: v1
-    created: "2021-06-15T10:47:22.990202555Z"
+    created: "2021-06-15T11:21:22.682239304Z"
     description: ONAP Virtual Infrastructure Deployment
-    digest: sha256:fa5a120b31cdc377faf99b088db336411272983b210887b2a18eedf450ab5841
+    digest: c63b09b2bb00be1ad0a1a18b0a3b4424d24e1a8f5002cb83d573bb90184e1810
     name: vid
     urls:
-    - https://amcop.github.io/guilin/charts/vid-7.0.1.tgz
+    - vid-7.0.1.tgz
     version: 7.0.1
   vnfsdk:
   - apiVersion: v1
-    created: "2021-06-15T10:47:36.796362026Z"
+    created: "2021-06-15T11:21:22.688262675Z"
     description: ONAP VNF SDK
-    digest: sha256:a81a6c9f0f224532414973fafa75f0ea903d1cf73a1d72839082033902f871d9
+    digest: 09a60132fb566b635ff443548316e2a2bc4bf6f98037846815655d5c9f8bf6e4
     name: vnfsdk
     urls:
-    - https://amcop.github.io/guilin/charts/vnfsdk-7.0.1.tgz
+    - vnfsdk-7.0.1.tgz
     version: 7.0.1
-generated: "2021-06-15T08:23:32.674851738Z"
+generated: "2021-06-15T11:21:20.827047028Z"
